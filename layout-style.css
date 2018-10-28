@@ -1,0 +1,106 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700);
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  margin: 0; padding: 0;
+  height: 100vh;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.page__content {
+  width: 100vw;
+  height: 100vh;
+  transition: transform 3s;
+  transform-style: preserve-3d;
+  display: grid;
+  place-content: center;
+  text-align: center;
+}
+
+.page__front,
+.page__back {
+  transform-style: preserve-3d;
+  backface-visibility: hidden;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 5em 3em;
+  height: 100vh;
+  display: grid;
+  align-content: center; 
+}
+
+.page__front {
+  background-color: #222;
+  background-size: cover;
+  background-blend-mode: overlay;
+  color: #eee;
+}
+
+.page__back {
+  transform: rotateY(180deg);
+  background-color: #444;
+  background-size: cover;
+  background-blend-mode: overlay;
+  color: #eee;
+}
+
+.page__front > *,
+.page__back > * {
+  transform: translateZ(6rem);
+}
+
+.page__layout {
+  display: grid;
+  height: 100vh;
+  grid-template-columns: 0.4fr 2.2fr 0.4fr;
+  grid-template-rows: 0.3fr 2.4fr 0.3fr;
+  grid-gap: 1px 1px;
+  grid-template-areas: ". north ." "west main east" ". south .";
+}
+
+.north {
+  grid-area: north;
+}
+
+.east {
+  grid-area: east;
+  align-self: center;
+}
+
+.south {
+  grid-area: south;
+}
+
+.west {
+  grid-area: west;
+  align-self: center;
+}
+
+.main {
+  grid-area: main;
+  align-self: center;
+}
+
+.navlink {
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.fas { font-size: 2em; }
+.east .fas { padding-left: 5px; transform: translateY(5px); }
+.west .fas { padding-right: 5px; transform: translateY(5px); }
+
+#templates { display: none; }
+
+.big-heading {
+  font-weight: 700;
+  font-size: 4em;
+}

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Elliott Programmer - Web Developer Portfolio</title>
+    <link rel="stylesheet" href="layout-style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/solid.css" integrity="sha384-uKQOWcYZKOuKmpYpvT0xCFAs/wE157X5Ua3H5onoRAOCNkJAMX/6QF0iXGGQV9cP" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/fontawesome.css" integrity="sha384-HU5rcgG/yUrsDGWsVACclYdzdCcn5yU8V/3V84zSrPDHwZEdjykadlgI6RHrxGrJ" crossorigin="anonymous">
+</head>
+<body>
+    <div class="page">
+        <div id="page__content" class="page__content">
+          <div id="front-page" class="page__front">
+            <div class="page__layout">
+              <div class="north">
+              </div>
+              <div class="east">
+                <a href="#about" class="navlink" data-template="about" data-rotate="+180" data-rotatedir="Y">About <i class="fas fa-chevron-right"></i></a>
+              </div>
+              <div class="south">
+                <a href="#contact" class="navlink" data-template="contact" data-rotate="-180" data-rotatedir="X">Contact<br><i class="fas fa-chevron-down"></i></a>
+              </div>
+              <div class="west">
+                <a href="#resume" class="navlink" data-template="resume" data-rotate="-180" data-rotatedir="Y"><i class="fas fa-chevron-left"></i> Resume</a>
+              </div>
+              <div class="main">
+                <h1 class="big-heading">HOME</h1>
+              </div>
+            </div>
+          </div>
+          <div id="back-page" class="page__back">
+          </div>
+        </div>
+      </div>
+      <div id="templates">
+        <div id="home" class="page__layout">
+          <div class="north">
+          </div>
+          <div class="east">
+            <a href="#about" class="navlink" data-template="about" data-rotate="+180" data-rotatedir="Y">About <i class="fas fa-chevron-right"></i></a>
+          </div>
+          <div class="south">
+            <a href="#contact" class="navlink" data-template="contact" data-rotate="-180" data-rotatedir="X">Contact<br><i class="fas fa-chevron-down"></i></a>
+          </div>
+          <div class="west">
+            <a href="#resume" class="navlink" data-template="resume" data-rotate="-180" data-rotatedir="Y"><i class="fas fa-chevron-left"></i> Resume</a>
+          </div>
+          <div class="main">
+            <h1 class="big-heading">HOME</h1>
+          </div>
+        </div>
+        <div id="about" class="page__layout">
+          <div class="north">
+          </div>
+          <div class="east">
+            <a href="#resume" class="navlink" data-template="resume" data-rotate="+180" data-rotatedir="Y">Resume <i class="fas fa-chevron-right"></i></a>
+          </div>
+          <div class="south">
+            <a href="#contact" class="navlink" data-template="contact" data-rotate="-180" data-rotatedir="X">Contact<br><i class="fas fa-chevron-down"></i></a>
+          </div>
+          <div class="west">
+            <a href="#home" class="navlink" data-template="home" data-rotate="-180" data-rotatedir="Y"><i class="fas fa-chevron-left"></i> Home</a>
+          </div>
+          <div class="main">
+            <h1 class="big-heading">ABOUT</h1>
+          </div>
+        </div>
+        
+        <div id="resume" class="page__layout">
+          <div class="north">
+          </div>
+          <div class="east">
+            <a href="#home" class="navlink" data-template="home" data-rotate="+180" data-rotatedir="Y">Home <i class="fas fa-chevron-right"></i></a>
+          </div>
+          <div class="south">
+            <a href="#contact" class="navlink" data-template="contact" data-rotate="-180" data-rotatedir="X">Contact<br><i class="fas fa-chevron-down"></i></a>
+          </div>
+          <div class="west">
+            <a href="#about" class="navlink" data-template="about" data-rotate="-180" data-rotatedir="Y"><i class="fas fa-chevron-left"></i> About</a>
+          </div>
+          <div class="main">
+            <h1 class="big-heading">RESUME</h1>
+          </div>
+        </div>
+        
+         <div id="contact" class="page__layout">
+          <div class="north">
+          </div>
+          <div class="east">
+            <a href="#resume" class="navlink" data-template="resume" data-rotate="+180" data-rotatedir="Y">Resume <i class="fas fa-chevron-right"></i></a>
+          </div>
+          <div class="south">
+            <a href="#about" class="navlink" data-template="about" data-rotate="-180" data-rotatedir="X">About<br><i class="fas fa-chevron-down"></i></a>
+          </div>
+          <div class="west">
+            <a href="#home" class="navlink" data-template="home" data-rotate="-180" data-rotatedir="Y"><i class="fas fa-chevron-left"></i> Home</a>
+          </div>
+          <div class="main">
+            <h1 class="big-heading">CONTACT</h1>
+          </div>
+        </div>
+      </div>
+      <script src="app_flipPage.js"></script>
+</body>
+</html>
