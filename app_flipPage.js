@@ -5,9 +5,10 @@
 // UI Controller
 const UIController = (function() {
 
+    const bgPath = 'images/'
     const navLinkClassName = 'navlink';
     const UIElements = {
-        spinningParent: document.querySelector('.page__content'),
+        spinningParent: document.querySelector('.page__container'),
         frontPage:       document.getElementById('front-page'),
         backPage:      document.getElementById('back-page')   
     }
@@ -17,8 +18,13 @@ const UIController = (function() {
         getElements: function() { return UIElements; },
         loadTemplate: function(templateID, elem) {
             const template = document.getElementById(templateID).cloneNode(true);
+            const templateBg = template.getAttribute('data-background');
+            if (templateBg) {
+                elem.style.backgroundImage = `url(${bgPath + templateBg})`;
+            }
             elem.innerHTML = '';
             elem.appendChild(template);
+
         },
         setZrotation(loadingPage, rotationAmount) {
             if (loadingPage === UIElements.backPage) {
@@ -78,7 +84,7 @@ const PageController = (function() {
     }
 
     return {
-        turnPage: function(navLink) {
+        turnPage: function(navLink, callback) {
             pageState.templateName = navLink.getAttribute('data-template');
             pageState.amountToRotate = parseInt(navLink.getAttribute('data-rotate'));
             pageState.rotateDirection = navLink.getAttribute('data-rotatedir');
@@ -132,7 +138,9 @@ const PageController = (function() {
             UIController.flipPage(pageState.newRotation);
 
             pageState.showingFront = !pageState.showingFront;
-
+            setTimeout(() => {
+                callback(pageState.templateName);
+            }, 2700);
         }
     }
 
@@ -145,9 +153,12 @@ const PageFlipper = (function(UIController, PageController) {
 
     return {
         init: function() {
+            UIController.loadTemplate('home', document.getElementById('front-page'));
             document.addEventListener('click', function(e) {
                 if (e.target && e.target.classList.contains(UIController.navLinkClassName)) {
-                    PageController.turnPage(e.target);
+                    PageController.turnPage(e.target, function(currentPage) {
+                        console.log(currentPage);
+                    });
                 }
             });
         }
