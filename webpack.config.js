@@ -25,11 +25,20 @@ module.exports = (env, options) => {
                     }
                 },
                 {
+                        test: /\.svg$/,
+                        use: {
+                            loader: 'file-loader',
+                            options: {
+                                outputPath: './images/svg'
+                            }
+                        }
+                },
+                {
                     test: /\.scss$/,
                     use: [{
                         loader: devMode ? 'style-loader' : MiniCssExtractPlugin.loader,
                     }, {
-                        loader: 'css-loader', options: { sourceMap: true }
+                        loader: 'css-loader'
                     }, {
                         loader: 'postcss-loader', options: { sourceMap: true }
                     }, {

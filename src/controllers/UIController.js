@@ -1,5 +1,5 @@
-const UIController = (function() {
-
+import TweenMax from "gsap/TweenMax";
+const UIController = (function(TweenMax) {
     const bgPath = './images/'
     const navLinkClassName = 'navlink';
     const UIElements = {
@@ -44,9 +44,10 @@ const UIController = (function() {
             return currentDegrees;
         },
         flipPage: function(newRotationDegrees) {
+            //TweenMax.to(UIElements.spinningParent, 2, {rotationX: newRotationDegrees.x, rotationY: newRotationDegrees.y/*, ease:Bounce.easeOut*/});
             UIElements.spinningParent.style.transform = `rotateX(${newRotationDegrees.x}deg) rotateY(${newRotationDegrees.y}deg)`;
         }
     }
-})();
+})(TweenMax);
 
 export default UIController;

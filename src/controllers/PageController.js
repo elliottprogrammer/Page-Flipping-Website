@@ -83,7 +83,7 @@ const PageController = (function(UIController) {
             pageState.showingFront = !pageState.showingFront;
             setTimeout(() => {
                 callback(pageState.templateName);
-            }, 2700);
+            }, 1700);
         }
     }
 

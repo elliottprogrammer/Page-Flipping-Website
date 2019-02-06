@@ -15,6 +15,7 @@
     border: 2px solid rgba(255, 255, 255, 8.0);
     padding: 20px 40px 35px;
     margin-bottom: 70px;
+    transform: translateZ(4em);
     &--about {
         display: inline-block;
         padding: 0 40px 35px;
@@ -79,41 +80,42 @@
 }
 
 .nav {
-    display: inline-block;
+    width: 6%;
     a.navlink {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex: 0 0 auto;
-        color: #fff;
-        text-decoration: none;
-        text-align: center;
-        font-size: 4vw;
-        background-color: rgba(0,0,0,.8);
-        padding: 0.8vw 1.6vw;
-        border-radius: 5%;
-        border-color: rgba(255,255,255,0.25);
-        border-width: 1px;
-        border-style: solid;
-        white-space: nowrap;
-        .navtext {
-            text-transform: uppercase;
+        display: block;
+        position: relative;
+        width: 100%;
+        height: auto;
+        img {
             display: block;
-            pointer-events: none;
-        }
-        .navicon {
-            font-size: 6vw;
-            pointer-events: none;
         }
     }
 }
 
-
-.west .navtext { padding-left: 0.8vw; }
-.east .navtext { padding-right: 0.8vw; }
-.north .navlink, .south .navlink {
-    flex-direction: column;
+.navlink::after {
     display: block;
+    content: '';
+    color: #fff;
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    background-image: url(../images/svg/nav-arrow.svg);
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-size: 26% 100%;
+    z-index: 10;
+}
+.west .navlink::after {
+    left: 0;
+    transform: rotate(180deg);
+}
+.south .navlink::after {
+    top:37%;
+    right: 0%;
+    transform: rotate(90deg);
+    background-position: bottom center;
 }
 
 .profile {
@@ -156,7 +158,17 @@
     background-color: rgba(0, 0, 0, 0.6);
     border: 1px solid rgba(255,255,255,0.25);
     padding: 1em;
+    &__body {
+        text-align: left;
+        font-size: 1.5em;
+        font-weight: 300;
+        line-height: 1.5;
+        br {
+            line-height: 2.3;
+        }
+    }
 }
+
 
 // helpers
 .condensed {
