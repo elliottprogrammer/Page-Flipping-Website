@@ -79,44 +79,86 @@
     padding-bottom: 110px;
 }
 
-.nav {
-    width: 6%;
-    a.navlink {
+
+    
+a.navlink {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: auto;
+    svg {
         display: block;
-        position: relative;
-        width: 100%;
-        height: auto;
-        img {
-            display: block;
+        pointer-events: none;
+        &.nav-arrow {
+            width: 100%;
+            height: auto;
+        }
+        &.nav-icon {
+            position: absolute;
+            width: auto;
+            z-index: 10;
+        }
+    }
+    &:hover {
+        svg.nav-arrow {
+            path.arrow {
+                fill: #569CD6;
+            }
+            path.box {
+                fill: #B5CEA8; //#D7BA5E;
+            }
+        }
+        svg.nav-icon {
+            path, polygon {
+                fill: #B5CEA8;
+            }
         }
     }
 }
 
-.navlink::after {
-    display: block;
-    content: '';
-    color: #fff;
-    position: absolute;
-    top: 0;
-    right: 0;
-    height: 100%;
-    width: 100%;
-    background-image: url(../images/svg/nav-arrow.svg);
-    background-repeat: no-repeat;
-    background-position: center right;
-    background-size: 26% 100%;
-    z-index: 10;
+
+.nav {
+    width: 6%;
+    &.east {
+        svg.nav-icon {
+            top: 11%;
+            left: 7%;
+            height: 77%;
+        }
+    }
+    &.west {
+        svg.nav-arrow {
+            transform: rotate(180deg);
+        }
+        svg.nav-icon {
+            top: 11%;
+            right: 7%;
+            height: 77%;
+        }
+    }
+    &.south {
+        svg.nav-arrow {
+            transform: rotate(90deg);
+        }
+        svg.nav-icon {
+            width: 47%;
+            height: 75%;
+            top: -24%;
+            left: 26%;
+        }
+    }
 }
-.west .navlink::after {
-    left: 0;
-    transform: rotate(180deg);
-}
-.south .navlink::after {
-    top:37%;
-    right: 0%;
-    transform: rotate(90deg);
-    background-position: bottom center;
-}
+// .tech-item img {
+//     -webkit-transition: all 500ms cubic-bezier(1.000, 0.005, 1.000, 0.720); 
+//     -moz-transition: all 500ms cubic-bezier(1.000, 0.005, 1.000, 0.720); 
+//       -o-transition: all 500ms cubic-bezier(1.000, 0.005, 1.000, 0.720); 
+//          transition: all 500ms cubic-bezier(1.000, 0.005, 1.000, 0.720); 
+// }
+// .tech-item.hidden img {
+//     opacity: 0;
+// }
+
+// .technologies .tech-item.hidden:nth-child(1) img { transform:translateX(-300px) translateY(-200px); }
 
 .profile {
     max-width: 26vw;
@@ -189,8 +231,6 @@
         }
     }
     .mid-header { font-size: 69.37px; }
-    .nav a.navlink { font-size: 39.64px; }
-    .nav a.navlink .navicon { font-size: 59.46px; }
     .page__front { padding: 49.54px 2%; }  
 }
 
