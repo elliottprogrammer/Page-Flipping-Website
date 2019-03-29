@@ -1,8 +1,11 @@
 const AboutPageController = function() {
     const bioElem = document.getElementById("bio-body");
-    const message = `Hey there!  Bryan Elliott here... Thanks for stopping by!
-    I've always had a passion for computer programming and starting programming BASIC at the age of 8 years old on a Texas Instruments TI-99/4a and ATARI 400 home computers. 
-    I've been working professionally in web development for approximately 12 years now. I am proficient in both front-end and back-end development.`;
+    bioElem.innerHTML = '';
+    const message = `Hi, I'm Bryan Elliott.
+    I am a full stack web developer currently living in Santa Clarita, CA.  I've been super passionate about computers and programming since the age of 8 and have been working professionally in the web development industry for 12+ years.
+    From a professional standpoint, with my current employer, I mostly work with PHP and MySQL (LAMP stack) on the back-end and HTML, CSS, SASS, and JavaScript on the front-end, however my deeper passion lies in newer open source JavaScript related technologies and frameworks such as React.js, Node.js, and MongoDB (MERN stack), and with these is where I spend most of my personal time exploring, learning and creating some really cool web applications. I can't wait to see what's to come of the web in the next few years.
+    I am currently open to considering a new full-time employment opportunity either locally in the Santa Clarita, CA area or remote where I can better utilize my skills with newer JavaScript based, front-end and back-end web technologies.
+    Bryan :)`;
     
     var randomPause = Math.floor(Math.random() * 6) + 3;
 

@@ -17,6 +17,7 @@ body {
 	height: 100%;
 	transition: transform 2s;
 	transform-style: preserve-3d;
+	position: relative;
 }
 
 .page__front,
@@ -29,8 +30,13 @@ body {
 	bottom: 0;
 	left: 0;
 	right: 0;
-	padding: 3% 2%;
-	height: 100vh;
+	// padding: 10px 7px;
+}
+@media (min-width: 991px) {
+	.page__front,
+	.bage__back {
+		
+	}  
 }
 
 .page__front {
@@ -48,34 +54,31 @@ body {
 	color: #eee;
 }
 
-.page__front > *,
-.page__back > * {
-	/* transform: translateZ(2vw); */
-}
-
 .page__layout {
-    height: 100%;
-    position: relative;
+    height: 100vh;
+	position: relative;
+	padding: 15px;
 }
 
 .north, .east, .south, .west {
 	display: inline-block;
+	z-index:10;
 }
 .north {
     position: absolute;
-    top:2%;
+    top:1%;
     left: 50%;
 }
 
 .east {
     position: absolute;
     top:50%;
-    right: 0;
+    right: 1%;
 }
 
 .south {
     position: absolute;
-    bottom: 0;
+    bottom: 3%;
     left: 50%;
     -webkit-transform: translateX(-50%);
     transform: translateX(-50%)
@@ -84,7 +87,7 @@ body {
 .west {
     position: absolute;
     top:50%;
-    left: 0;
+    left: 1%;
 }
 
 .main {
@@ -94,3 +97,9 @@ body {
 
 
 #templates { display: none; }
+
+#home .main, #about .main {
+	display: flex;
+	flex-direction: column;
+	height: 95vh;
+}

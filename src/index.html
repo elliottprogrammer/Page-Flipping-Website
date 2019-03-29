@@ -1,263 +1,1037 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Elliott Programmer - Web Developer Portfolio</title>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/solid.css" integrity="sha384-uKQOWcYZKOuKmpYpvT0xCFAs/wE157X5Ua3H5onoRAOCNkJAMX/6QF0iXGGQV9cP" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/fontawesome.css" integrity="sha384-HU5rcgG/yUrsDGWsVACclYdzdCcn5yU8V/3V84zSrPDHwZEdjykadlgI6RHrxGrJ" crossorigin="anonymous">
-</head>
-<body>
-    <div class="page">
-        <div id="page__container" class="page__container">
-            <div id="front-page" class="page__front">
-            </div>
-            <div id="back-page" class="page__back">
-            </div>
-        </div>
-    </div>
-      <div id="templates">
-    <!-- HOME/Index page -->
-        <div id="home" data-background="vscode1.png" class="page__layout">
-          <div class="main">
-            <div class="brand">
-              <h1 class="brand__heading">Elliott</h1>
-              <div class="brand__subheading--wrapper">
-                  <h2 class="brand__subheading">Programmer</h2>
-              </div>
-            </div>
-            <h3 class="mid-header">Full Stack Web Developer</h3>
-            <!-- <div class="profile">
-                <img src="images/elliott-programmer_profile.jpg" class="profile__img img-responsive" alt="User Profile Photo">
-            </div> -->
-            <div class="technologies">
-                <div class="tech-item hidden">
-                    <img id="html-logo" class="logo "src="images/svg/html-logo[svg].svg" alt="HTML logo"> 
-                </div>
-                <div class="tech-item hidden">
-                    <img id="css-logo" class="logo" src="images/svg/css-logo[svg].svg" alt="Css logo">
-                </div>
-                <div class="tech-item hidden">
-                    <img src="images/svg/javascript-logo[svg].svg" alt="Javascript logo">
-                </div>
-                <div class="tech-item hidden">
-                    <img src="images/svg/php-logo[svg].svg" alt="PHP logo">
-                </div>
-                <div class="tech-item hidden">
-                    <img src="images/svg/mysql-logo[svg].svg" alt="MySQL logo">
-                </div>
-                <div class="tech-item hidden">
-                    <img src="images/svg/wordpress-logo[svg].svg" alt="WordPress logo">
-                </div>
-                <div class="tech-item hidden">
-                    <img src="images/svg/git-logo[svg].svg" alt="gitT logo">
-                </div>
-                <div class="tech-item hidden">
-                    <img src="images/svg/sass-logo[svg].svg" alt="Sass logo">
-                </div>
-                <div class="tech-item hidden">
-                    <img src="images/svg/npm-logo[svg].svg" alt="npm logo">
-                </div>
-                <div class="tech-item hidden">
-                    <img src="images/svg/jquery-logo[svg].svg" alt="jQuery logo">
-                </div>
-                <div class="tech-item hidden">
-                    <img src="images/svg/woocommerce-logo[svg].svg" alt="Wocommerce logo">
-                </div>
-                <div class="tech-item hidden">
-                    <img src="images/svg/webpack-logo[svg].svg" alt="Webpack logo">
-                </div>
-                <div class="tech-item hidden">
-                    <img src="images/svg/linux-logo[svg].svg" alt="linux logo">
-                </div>
-                <div class="tech-item hidden">
-                    <img src="images/svg/nodejs-logo[svg].svg" alt="node js logo">
-                </div>
-                <div class="tech-item hidden">
-                    <img src="images/svg/express-logo[svg].svg" alt="express logo">
-                </div>
-                <div class="tech-item hidden">
-                    <img src="images/svg/mongodb-logo[svg].svg" alt="mongoDB logo">
-                </div>
-                <div class="tech-item hidden">
-                    <img src="images/svg/react-logo[svg].svg" alt="HTML logo">
-                </div>
-                <div class="tech-item hidden">
-                    <img src="images/svg/redux-logo[svg].svg" alt="HTML logo">
-                </div>
-            </div>
-          </div>
-          <div class="nav north">
-            </div>
-            <div class="nav east">
-              <a href="#about" class="navlink" data-template="about" data-rotate="+180" data-rotatedir="Y">
-                <svg class="nav-arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 331.0713 195.78">
-                    <title>nav-arrow[new]</title><path class="arrow" d="M234.59,262.625a6.195,6.195,0,0,0,3.83-1.6l90.91-90.85a6.0448,6.0448,0,0,0-.02-8.51l-90.88-90.87a6.2342,6.2342,0,0,0-3.84-1.59h-15.5c-2.08,0-2.57,1.18-1.1,2.65l89.81,89.81a6.0265,6.0265,0,0,1,.02,8.51l-89.85,89.78c-1.45,1.47-.96,2.67,1.12,2.67Z" transform="translate(0 -67.645)" fill="#fff" fill-rule="evenodd"/><path class="box" d="M0,78.895v173.28a11.2541,11.2541,0,0,0,11.25,11.25H171.03a20.8335,20.8335,0,0,0,12.8-5.3l88.82-89.55a3.7784,3.7784,0,0,0-.01-5.32l-90.31-90.3a20.7874,20.7874,0,0,0-12.8-5.31H11.25A11.2541,11.2541,0,0,0,0,78.895Zm23.25,171.4a9.7476,9.7476,0,0,1-9.75-9.74V90.515a9.7476,9.7476,0,0,1,9.75-9.74H164.14a18.0706,18.0706,0,0,1,11.1,4.59l77.89,77.84a3.7693,3.7693,0,0,1,.02,5.32l-76.61,77.18a18.0133,18.0133,0,0,1-11.1,4.59Z" transform="translate(0 -67.645)" fill="#fff" fill-rule="evenodd"/>
-                </svg>
-                <svg class="nav-icon" id="nav-about" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 137.9 150.61">
-                    <title>nav-about[new]</title><path d="M20.375,124.7l3.23,12.41h-6.47Zm6.64,25.16h7.48l-10.91-34.5h-6.4l-10.83,34.5h7.39l1.87-6.75h9.54Z" transform="translate(-6.355)" fill="#fff" fill-rule="evenodd"/><path d="M44.615,120.61h3.72a3.98,3.98,0,0,1,3.09,1.06,5.1906,5.1906,0,0,1,.95,3.51q0,4.425-4.11,4.43h-3.65Zm4.93,14.25q3.375.135,3.38,5.04a5.4207,5.4207,0,0,1-.98,3.48,3.4452,3.4452,0,0,1-2.85,1.23h-4.48v-9.75Zm-.45,15c3.51,0,6.18-.86,8.03-2.57s2.78-4.25,2.78-7.63a9.1326,9.1326,0,0,0-1.27-4.97,6.1416,6.1416,0,0,0-3.58-2.68,6.776,6.776,0,0,0,3.17-2.75,8.39,8.39,0,0,0,1.17-4.51c0-3.07-.95-5.41-2.82-7-1.88-1.6-4.63-2.39-8.24-2.39H37.625v34.5Z" transform="translate(-6.355)" fill="#fff" fill-rule="evenodd"/><path d="M82.085,136.15c-.02,3.15-.46,5.47-1.35,6.97a4.4114,4.4114,0,0,1-4.07,2.24,4.521,4.521,0,0,1-4.19-2.3q-1.365-2.28-1.36-7.14v-6.57c.03-3.19.5-5.57,1.39-7.14a4.7552,4.7552,0,0,1,8.25.08q1.335,2.445,1.33,7.43Zm7.04-6.38c-.04-4.79-1.16-8.52-3.39-11.18a11.2881,11.2881,0,0,0-9.12-3.99,11.2392,11.2392,0,0,0-9.19,4.06q-3.3,4.065-3.3,11.28v5.98q.03,6.975,3.37,10.83a11.47,11.47,0,0,0,9.17,3.86,11.3328,11.3328,0,0,0,9.15-3.89q3.315-3.9,3.31-10.96Z" transform="translate(-6.355)" fill="#fff" fill-rule="evenodd"/><path d="M109.555,115.36v24.51a7.59,7.59,0,0,1-.95,4.21c-.62.86-1.77,1.28-3.44,1.28-1.66,0-2.81-.42-3.44-1.29a7.4056,7.4056,0,0,1-.95-4.31v-24.4h-7.06v23.9c0,3.68.97,6.5,2.94,8.44,1.96,1.95,4.8,2.91,8.51,2.91,3.66,0,6.46-.95,8.41-2.87,1.94-1.92,2.94-4.69,2.97-8.31V115.36Z" transform="translate(-6.355)" fill="#fff" fill-rule="evenodd"/><polygon points="137.9 115.36 113.88 115.36 113.88 120.61 122.31 120.61 122.31 149.86 129.33 149.86 129.33 120.61 137.9 120.61 137.9 115.36" fill="#fff" fill-rule="evenodd"/><path d="M75.435,0a24.041,24.041,0,0,0-17.62,7.3,24.0023,24.0023,0,0,0-7.3,17.62,24.0023,24.0023,0,0,0,7.3,17.62,24.9268,24.9268,0,0,0,35.23,0,24.0116,24.0116,0,0,0,7.31-17.62A24.0116,24.0116,0,0,0,93.045,7.3,24.0347,24.0347,0,0,0,75.435,0Zm45.45,76.14a66.9206,66.9206,0,0,0-.91-7.07,56.65,56.65,0,0,0-1.73-7.04,33.3476,33.3476,0,0,0-2.79-6.33,23.0594,23.0594,0,0,0-4.02-5.25,16.7934,16.7934,0,0,0-5.54-3.47,19.3786,19.3786,0,0,0-7.23-1.3,8.0079,8.0079,0,0,0-2.73,1.39c-1.43.94-3.04,1.97-4.83,3.12a30.96,30.96,0,0,1-7.01,3.11,27.6718,27.6718,0,0,1-17.32,0,30.1714,30.1714,0,0,1-7.01-3.11c-1.8-1.15-3.4-2.18-4.83-3.12a8.19,8.19,0,0,0-2.73-1.39,19.3415,19.3415,0,0,0-7.23,1.3,16.84,16.84,0,0,0-5.55,3.47,22.8092,22.8092,0,0,0-4.03,5.25,33.3476,33.3476,0,0,0-2.79,6.33,54.9925,54.9925,0,0,0-1.71,7.04,64.3978,64.3978,0,0,0-.91,7.07c-.16,2.18-.23,4.42-.23,6.71,0,5.2,1.57,9.29,4.74,12.3q4.725,4.5,12.59,4.51h56.7q7.845,0,12.59-4.51c3.15-3.01,4.73-7.1,4.73-12.3C121.105,80.56,121.025,78.32,120.885,76.14Z" transform="translate(-6.355)" fill="#fff" fill-rule="evenodd"/>
-                </svg>
-              </a>
-            </div>
-            <div class="nav south">
-              <a href="#contact" class="navlink" data-template="contact" data-rotate="-180" data-rotatedir="X">
-                <svg class="nav-arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 331.0713 195.78">
-                    <title>nav-arrow[new]</title><path class="arrow" d="M234.59,262.625a6.195,6.195,0,0,0,3.83-1.6l90.91-90.85a6.0448,6.0448,0,0,0-.02-8.51l-90.88-90.87a6.2342,6.2342,0,0,0-3.84-1.59h-15.5c-2.08,0-2.57,1.18-1.1,2.65l89.81,89.81a6.0265,6.0265,0,0,1,.02,8.51l-89.85,89.78c-1.45,1.47-.96,2.67,1.12,2.67Z" transform="translate(0 -67.645)" fill="#fff" fill-rule="evenodd"/><path class="box" d="M0,78.895v173.28a11.2541,11.2541,0,0,0,11.25,11.25H171.03a20.8335,20.8335,0,0,0,12.8-5.3l88.82-89.55a3.7784,3.7784,0,0,0-.01-5.32l-90.31-90.3a20.7874,20.7874,0,0,0-12.8-5.31H11.25A11.2541,11.2541,0,0,0,0,78.895Zm23.25,171.4a9.7476,9.7476,0,0,1-9.75-9.74V90.515a9.7476,9.7476,0,0,1,9.75-9.74H164.14a18.0706,18.0706,0,0,1,11.1,4.59l77.89,77.84a3.7693,3.7693,0,0,1,.02,5.32l-76.61,77.18a18.0133,18.0133,0,0,1-11.1,4.59Z" transform="translate(0 -67.645)" fill="#fff" fill-rule="evenodd"/>
-                </svg>
-                <svg class="nav-icon" id="nav-contact" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150.61 150.61">
-                <title>nav-contact[new]</title><path d="M11.8056,124.9444a3.7155,3.7155,0,0,0-3.372,2.4253,15.1829,15.1829,0,0,0-1.211,6.687q0,8.8608,4.92,8.86a7.5825,7.5825,0,0,0,2.8813-.5668,24.2349,24.2349,0,0,0,2.8052-1.3648v7.0127a11.9968,11.9968,0,0,1-6.3457,1.7007,8.8018,8.8018,0,0,1-7.7783-4.0313Q.9994,141.6362,1,134.0147a24.5174,24.5174,0,0,1,1.31-8.3774,12.14,12.14,0,0,1,3.77-5.5538,9.064,9.064,0,0,1,5.7862-1.9418,12.5048,12.5048,0,0,1,6.9433,2.1626l-1.8545,6.53a18.0906,18.0906,0,0,0-2.4833-1.3437A6.5526,6.5526,0,0,0,11.8056,124.9444Z" fill="#fff"/><path d="M43.039,133.8887q0,7.7476-2.7739,11.7788a9.2357,9.2357,0,0,1-8.1235,4.0313,9.2416,9.2416,0,0,1-8.085-4.0523q-2.8132-4.0516-2.8125-11.8,0-7.6635,2.7969-11.7055A9.27,9.27,0,0,1,32.1723,118.1a9.2123,9.2123,0,0,1,8.108,4.01Q43.0392,126.1207,43.039,133.8887Zm-15.4189,0q0,8.9027,4.5215,8.9024a3.6173,3.6173,0,0,0,3.41-2.1626q1.1112-2.1621,1.1114-6.74a15.5549,15.5549,0,0,0-1.1265-6.7925,3.6022,3.6022,0,0,0-3.3643-2.1938Q27.62,124.9024,27.62,133.8887Z" fill="#fff"/><path d="M68.2954,149.2789h-7.94l-8.1846-21.626h-.1377q.2907,5.1021.291,7.79v13.8365H46.96V118.5826h7.9087l8.1538,21.332h.0923q-.2152-4.64-.2148-7.4536V118.5826h5.3955Z" fill="#fff"/><path d="M82.8989,149.2789H76.8447V125.3643H71.373v-6.7817H88.3555v6.7817H82.8989Z" fill="#fff"/><path d="M105.1816,149.2789l-1.1035-5.753h-7.28l-1.1342,5.753H89.0117l7.311-30.8223H104.4l7.4028,30.8223Zm-2.36-12.5557-.9654-5.0391q-.3376-1.6794-.82-4.3462t-.6357-3.8212q-.1384,1.0707-.5444,3.5273t-1.8008,9.6792Z" fill="#fff"/><path d="M124.078,124.9444a3.7157,3.7157,0,0,0-3.3721,2.4253,15.1828,15.1828,0,0,0-1.2109,6.687q0,8.8608,4.92,8.86a7.5834,7.5834,0,0,0,2.8814-.5668,24.2349,24.2349,0,0,0,2.8052-1.3648v7.0127a11.9977,11.9977,0,0,1-6.3457,1.7007,8.802,8.802,0,0,1-7.7784-4.0313q-2.7056-4.0312-2.705-11.6528a24.517,24.517,0,0,1,1.31-8.3774,12.1394,12.1394,0,0,1,3.77-5.5538,9.064,9.064,0,0,1,5.7862-1.9418,12.5048,12.5048,0,0,1,6.9433,2.1626l-1.8545,6.53a18.081,18.081,0,0,0-2.4834-1.3437A6.552,6.552,0,0,0,124.078,124.9444Z" fill="#fff"/><path d="M144.23,149.2789h-6.0542V125.3643h-5.4717v-6.7817H149.686v6.7817H144.23Z" fill="#fff"/><path d="M124.8691,20.4233a14.5421,14.5421,0,0,1-2.6914,8.2994,26.1432,26.1432,0,0,1-6.707,6.76Q94.8048,49.8281,89.75,53.3452q-.5508.3854-2.3359,1.6763Q85.627,56.3142,84.4453,57.11q-1.1835.7968-2.8574,1.7861a16.7,16.7,0,0,1-3.16,1.4839,8.7366,8.7366,0,0,1-2.7485.4946h-.11a8.7244,8.7244,0,0,1-2.748-.4946,16.6349,16.6349,0,0,1-3.1607-1.4839q-1.6771-.99-2.8579-1.7861T63.835,55.0215q-1.7871-1.2906-2.336-1.6763-5.0016-3.5163-14.4-10.03T35.832,35.4829a27.274,27.274,0,0,1-6.4306-6.3481q-3.0235-4.04-3.023-7.5025a11.0945,11.0945,0,0,1,2.2808-7.145,7.8491,7.8491,0,0,1,6.5132-2.8579h80.9038a8.8647,8.8647,0,0,1,8.7929,8.7939Zm0,16.1587v43.64a8.8173,8.8173,0,0,1-8.7929,8.7939H35.1724a8.819,8.819,0,0,1-8.794-8.7939V36.582A29.1,29.1,0,0,0,31.93,41.3638q19.8955,13.52,27.3159,18.9619,3.1326,2.3079,5.084,3.6a31.2451,31.2451,0,0,0,5.1938,2.6382A15.8269,15.8269,0,0,0,75.5693,67.91h.11a15.83,15.83,0,0,0,6.0454-1.3467,31.2791,31.2791,0,0,0,5.1934-2.6382q1.9512-1.2906,5.084-3.6,9.3456-6.76,27.371-18.9619A30.23,30.23,0,0,0,124.8691,36.582Z" fill="#fff"/>
-                </svg>
-              </a>
-            </div>
-            <div class="nav west">
-              <a href="#resume" class="navlink" data-template="resume" data-rotate="-180" data-rotatedir="Y">
-                <svg class="nav-arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 331.0713 195.78">
-                <title>nav-arrow[new]</title><path class="arrow" d="M234.59,262.625a6.195,6.195,0,0,0,3.83-1.6l90.91-90.85a6.0448,6.0448,0,0,0-.02-8.51l-90.88-90.87a6.2342,6.2342,0,0,0-3.84-1.59h-15.5c-2.08,0-2.57,1.18-1.1,2.65l89.81,89.81a6.0265,6.0265,0,0,1,.02,8.51l-89.85,89.78c-1.45,1.47-.96,2.67,1.12,2.67Z" transform="translate(0 -67.645)" fill="#fff" fill-rule="evenodd"/><path class="box" d="M0,78.895v173.28a11.2541,11.2541,0,0,0,11.25,11.25H171.03a20.8335,20.8335,0,0,0,12.8-5.3l88.82-89.55a3.7784,3.7784,0,0,0-.01-5.32l-90.31-90.3a20.7874,20.7874,0,0,0-12.8-5.31H11.25A11.2541,11.2541,0,0,0,0,78.895Zm23.25,171.4a9.7476,9.7476,0,0,1-9.75-9.74V90.515a9.7476,9.7476,0,0,1,9.75-9.74H164.14a18.0706,18.0706,0,0,1,11.1,4.59l77.89,77.84a3.7693,3.7693,0,0,1,.02,5.32l-76.61,77.18a18.0133,18.0133,0,0,1-11.1,4.59Z" transform="translate(0 -67.645)" fill="#fff" fill-rule="evenodd"/>
-                </svg>
-                <svg class="nav-icon" id="nav-resume" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150.1494 148.896">
-                <title>nav-resume[new]</title><path d="M116.3771,42.3244V93.6637a6.1352,6.1352,0,0,1-6.1612,6.1607H40.3946a6.1352,6.1352,0,0,1-6.1606-6.1607V7.4137A5.9409,5.9409,0,0,1,36.0309,3.05a5.9423,5.9423,0,0,1,4.3637-1.7968H75.3053V36.1637a6.1352,6.1352,0,0,0,6.1606,6.1607ZM99.9484,64.9137V60.8063a1.9767,1.9767,0,0,0-2.0538-2.0532H52.7159a1.9766,1.9766,0,0,0-2.0532,2.0532v4.1074a1.9766,1.9766,0,0,0,2.0532,2.0532H97.8946a1.9767,1.9767,0,0,0,2.0538-2.0532Zm0,16.4282V77.235a1.9775,1.9775,0,0,0-2.0538-2.0537H52.7159a1.9774,1.9774,0,0,0-2.0532,2.0537v4.1069a1.9774,1.9774,0,0,0,2.0532,2.0537H97.8946a1.9775,1.9775,0,0,0,2.0538-2.0537ZM116.1842,34.11H83.52V1.4454a15.5959,15.5959,0,0,1,8.4712,4.1714l20.022,20.022A15.5966,15.5966,0,0,1,116.1842,34.11Z" transform="translate(-0.7496 -1.2531)" fill="#fff"/><path d="M.75,117.0275a47.635,47.635,0,0,1,8.4561-.6856c4.1655,0,7.0815.7349,9.081,2.5967a9.0726,9.0726,0,0,1,2.583,6.9082,8.7352,8.7352,0,0,1-4.9575,8.1333v.147c1.958.9311,3.041,3.1357,3.7491,6.1738.875,3.7237,1.75,8.0352,2.2915,9.3091H15.4542a46.824,46.824,0,0,1-1.958-7.6924c-.7495-4.1157-1.9575-5.2427-4.54-5.2915H7.04V149.61H.75Zm6.29,14.209H9.5392c3.1655,0,5.04-1.8619,5.04-4.7525,0-3.0381-1.7495-4.5566-4.6655-4.6059a13.5157,13.5157,0,0,0-2.874.2451Z" transform="translate(-0.7496 -1.2531)" fill="#fff"/><path d="M41.985,135.6461H31.6539v7.8394H43.193V149.61H25.2809V116.5866H42.61v6.1245H31.6539V129.57H41.985Z" transform="translate(-0.7496 -1.2531)" fill="#fff"/><path d="M47.5631,141.9176a14.3165,14.3165,0,0,0,7.04,2.0576c2.9161,0,4.4571-1.4209,4.4571-3.5766,0-2.0576-1.333-3.2334-4.7071-4.6543-4.6655-1.9112-7.7065-4.9488-7.7065-9.7505,0-5.6343,3.999-9.9458,10.6226-9.9458a15.0342,15.0342,0,0,1,7.165,1.6655L63.0177,123.74a11.7588,11.7588,0,0,0-5.8735-1.5674c-2.75,0-4.0826,1.47-4.0826,3.1846,0,2.1069,1.583,3.0376,5.2071,4.6543,4.9575,2.1562,7.29,5.1938,7.29,9.8486,0,5.5361-3.624,10.24-11.3306,10.24a16.1178,16.1178,0,0,1-7.9565-2.0087Z" transform="translate(-0.7496 -1.2531)" fill="#fff"/><path d="M76.0109,116.5866v19.0107c0,5.6836,1.833,8.5742,5.082,8.5742,3.3325,0,5.1655-2.7436,5.1655-8.5742V116.5866H92.59v18.5205c0,10.1914-4.3736,15.042-11.7051,15.042-7.0816,0-11.2476-4.606-11.2476-15.14V116.5866Z" transform="translate(-0.7496 -1.2531)" fill="#fff"/><path d="M121.6617,136.9689c-.125-3.9688-.25-8.77-.25-13.5718h-.125c-.875,4.2139-2.041,8.9175-3.1245,12.7881l-3.4155,12.8857H109.79l-2.9995-12.788c-.9165-3.8707-1.8746-8.5743-2.5411-12.8858h-.083c-.167,4.4585-.292,9.5542-.5,13.67l-.5,12.543H97.2926l1.791-33.0234H107.54l2.749,11.0244c.875,3.8213,1.75,7.937,2.3745,11.8076h.125c.7915-3.8213,1.7495-8.1821,2.666-11.8569l2.9995-10.9751h8.29l1.541,33.0234h-6.2066Z" transform="translate(-0.7496 -1.2531)" fill="#fff"/><path d="M149.691,135.6461H139.36v7.8394h11.539V149.61H132.9869V116.5866H150.316v6.1245H139.36V129.57h10.331Z" transform="translate(-0.7496 -1.2531)" fill="#fff"/>
-                </svg>
-              </a>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>Elliott Programmer - Web Developer Portfolio</title>
+        <link
+            rel="stylesheet"
+            href="https://use.fontawesome.com/releases/v5.4.2/css/solid.css"
+            integrity="sha384-uKQOWcYZKOuKmpYpvT0xCFAs/wE157X5Ua3H5onoRAOCNkJAMX/6QF0iXGGQV9cP"
+            crossorigin="anonymous"
+        />
+        <link
+            rel="stylesheet"
+            href="https://use.fontawesome.com/releases/v5.7.1/css/brands.css"
+            integrity="sha384-BKw0P+CQz9xmby+uplDwp82Py8x1xtYPK3ORn/ZSoe6Dk3ETP59WCDnX+fI1XCKK"
+            crossorigin="anonymous"
+        />
+        <link
+            rel="stylesheet"
+            href="https://use.fontawesome.com/releases/v5.4.2/css/fontawesome.css"
+            integrity="sha384-HU5rcgG/yUrsDGWsVACclYdzdCcn5yU8V/3V84zSrPDHwZEdjykadlgI6RHrxGrJ"
+            crossorigin="anonymous"
+        />
+    </head>
+    <body>
+        <div class="page">
+            <div id="page__container" class="page__container">
+                <div id="front-page" class="page__front"></div>
+                <div id="back-page" class="page__back"></div>
             </div>
         </div>
+        <div id="templates">
+            <!-- HOME/Index page -->
+            <div id="home" data-background="vscode1.png" class="page__layout">
+                <div class="main">
+                    <div class="brand-container">
+                        <div class="brand">
+                            <h1 class="brand__heading">Elliott</h1>
+                            <div class="brand__subheading--wrapper">
+                                <h2 class="brand__subheading">Programmer</h2>
+                            </div>
+                        </div>
+                        <ul class="social-bar">
+                            <li>
+                                <a
+                                    href="https://www.linkedin.com/in/bryan-elliott-programmer/"
+                                    target="_blank"
+                                    ><i class="fab fa-linkedin"></i> LinkedIn</a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    href="https://stackoverflow.com/users/1388588/melliott"
+                                    terget="_blank"
+                                    ><i class="fab fa-stack-overflow"></i> stackoverflow</a
+                                >
+                            </li>
+                            <li>
+                                <a href="https://github.com/elliottprogrammer" target="_blank"
+                                    ><i class="fab fa-github"></i> GitHub</a
+                                >
+                            </li>
+                        </ul>
+                    </div>
 
-<!-- ABOUT page -->
-        <div id="about" data-background="vscode1.png" class="page__layout">
-            <div class="main">
-                <div class="brand--about">
-                    <h1 class="brand__heading">About Me</h1>
-                    <div class="brand__subheading--wrapper">
-                        <h2 class="brand__subheading">M Bryan Elliott</h2>
+                    <h3 class="mid-header"><span>Full Stack Web Developer</span></h3>
+
+                    <div class="technologies">
+                        <div class="tech-item html">
+                            <img
+                                id="html-logo"
+                                class="logo "
+                                src="images/svg/html-logo[svg].svg"
+                                alt="HTML logo"
+                            />
+                        </div>
+                        <div class="tech-item css">
+                            <img
+                                id="css-logo"
+                                class="logo"
+                                src="images/svg/css-logo[svg].svg"
+                                alt="Css logo"
+                            />
+                        </div>
+                        <div class="tech-item javascript">
+                            <img src="images/svg/javascript-logo[svg].svg" alt="Javascript logo" />
+                        </div>
+                        <div class="tech-item php">
+                            <img src="images/svg/php-logo[svg].svg" alt="PHP logo" />
+                        </div>
+                        <div class="tech-item mysql">
+                            <img src="images/svg/mysql-logo[svg].svg" alt="MySQL logo" />
+                        </div>
+                        <div class="tech-item wordpress">
+                            <img src="images/svg/wordpress-logo[svg].svg" alt="WordPress logo" />
+                        </div>
+                        <div class="tech-item git">
+                            <img src="images/svg/git-logo[svg].svg" alt="gitT logo" />
+                        </div>
+                        <div class="tech-item sass">
+                            <img src="images/svg/sass-logo[svg].svg" alt="Sass logo" />
+                        </div>
+                        <div class="tech-item npm">
+                            <img src="images/svg/npm-logo[svg].svg" alt="npm logo" />
+                        </div>
+                        <div class="tech-item jquery">
+                            <img src="images/svg/jquery-logo[svg].svg" alt="jQuery logo" />
+                        </div>
+                        <div class="tech-item woocommerce">
+                            <img src="images/svg/woocommerce-logo[svg].svg" alt="Wocommerce logo" />
+                        </div>
+                        <div class="tech-item webpack">
+                            <img src="images/svg/webpack-logo[svg].svg" alt="Webpack logo" />
+                        </div>
+                        <div class="tech-item linux">
+                            <img src="images/svg/linux-logo[svg].svg" alt="linux logo" />
+                        </div>
+                        <div class="tech-item nodejs">
+                            <img src="images/svg/nodejs-logo[svg].svg" alt="node js logo" />
+                        </div>
+                        <div class="tech-item express">
+                            <img src="images/svg/express-logo[svg].svg" alt="express logo" />
+                        </div>
+                        <div class="tech-item mongodb">
+                            <img src="images/svg/mongodb-logo[svg].svg" alt="mongoDB logo" />
+                        </div>
+                        <div class="tech-item react">
+                            <img src="images/svg/react-logo[svg].svg" alt="HTML logo" />
+                        </div>
+                        <div class="tech-item redux">
+                            <img src="images/svg/redux-logo[svg].svg" alt="HTML logo" />
+                        </div>
                     </div>
                 </div>
-                <div class="profile">
-                    <img src="images/elliott-programmer_profile.jpg" class="profile__img img-responsive" alt="User Profile Photo">
+                <nav>
+                    <div class="nav north"></div>
+                    <div class="nav east">
+                        <a
+                            href="#about"
+                            class="navlink"
+                            data-template="about"
+                            data-rotate="+180"
+                            data-rotatedir="Y"
+                        >
+                            <svg
+                                class="nav-arrow"
+                                xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 331.0713 195.78"
+                            >
+                                <title>nav-arrow[new]</title>
+                                <path
+                                    class="arrow"
+                                    d="M234.59,262.625a6.195,6.195,0,0,0,3.83-1.6l90.91-90.85a6.0448,6.0448,0,0,0-.02-8.51l-90.88-90.87a6.2342,6.2342,0,0,0-3.84-1.59h-15.5c-2.08,0-2.57,1.18-1.1,2.65l89.81,89.81a6.0265,6.0265,0,0,1,.02,8.51l-89.85,89.78c-1.45,1.47-.96,2.67,1.12,2.67Z"
+                                    transform="translate(0 -67.645)"
+                                    fill="#fff"
+                                    fill-rule="evenodd"
+                                />
+                                <path
+                                    class="box"
+                                    d="M0,78.895v173.28a11.2541,11.2541,0,0,0,11.25,11.25H171.03a20.8335,20.8335,0,0,0,12.8-5.3l88.82-89.55a3.7784,3.7784,0,0,0-.01-5.32l-90.31-90.3a20.7874,20.7874,0,0,0-12.8-5.31H11.25A11.2541,11.2541,0,0,0,0,78.895Zm23.25,171.4a9.7476,9.7476,0,0,1-9.75-9.74V90.515a9.7476,9.7476,0,0,1,9.75-9.74H164.14a18.0706,18.0706,0,0,1,11.1,4.59l77.89,77.84a3.7693,3.7693,0,0,1,.02,5.32l-76.61,77.18a18.0133,18.0133,0,0,1-11.1,4.59Z"
+                                    transform="translate(0 -67.645)"
+                                    fill="#fff"
+                                    fill-rule="evenodd"
+                                />
+                            </svg>
+                            <svg
+                                class="nav-icon"
+                                id="nav-about"
+                                xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 137.9 150.61"
+                            >
+                                <title>nav-about[new]</title>
+                                <path
+                                    d="M20.375,124.7l3.23,12.41h-6.47Zm6.64,25.16h7.48l-10.91-34.5h-6.4l-10.83,34.5h7.39l1.87-6.75h9.54Z"
+                                    transform="translate(-6.355)"
+                                    fill="#fff"
+                                    fill-rule="evenodd"
+                                />
+                                <path
+                                    d="M44.615,120.61h3.72a3.98,3.98,0,0,1,3.09,1.06,5.1906,5.1906,0,0,1,.95,3.51q0,4.425-4.11,4.43h-3.65Zm4.93,14.25q3.375.135,3.38,5.04a5.4207,5.4207,0,0,1-.98,3.48,3.4452,3.4452,0,0,1-2.85,1.23h-4.48v-9.75Zm-.45,15c3.51,0,6.18-.86,8.03-2.57s2.78-4.25,2.78-7.63a9.1326,9.1326,0,0,0-1.27-4.97,6.1416,6.1416,0,0,0-3.58-2.68,6.776,6.776,0,0,0,3.17-2.75,8.39,8.39,0,0,0,1.17-4.51c0-3.07-.95-5.41-2.82-7-1.88-1.6-4.63-2.39-8.24-2.39H37.625v34.5Z"
+                                    transform="translate(-6.355)"
+                                    fill="#fff"
+                                    fill-rule="evenodd"
+                                />
+                                <path
+                                    d="M82.085,136.15c-.02,3.15-.46,5.47-1.35,6.97a4.4114,4.4114,0,0,1-4.07,2.24,4.521,4.521,0,0,1-4.19-2.3q-1.365-2.28-1.36-7.14v-6.57c.03-3.19.5-5.57,1.39-7.14a4.7552,4.7552,0,0,1,8.25.08q1.335,2.445,1.33,7.43Zm7.04-6.38c-.04-4.79-1.16-8.52-3.39-11.18a11.2881,11.2881,0,0,0-9.12-3.99,11.2392,11.2392,0,0,0-9.19,4.06q-3.3,4.065-3.3,11.28v5.98q.03,6.975,3.37,10.83a11.47,11.47,0,0,0,9.17,3.86,11.3328,11.3328,0,0,0,9.15-3.89q3.315-3.9,3.31-10.96Z"
+                                    transform="translate(-6.355)"
+                                    fill="#fff"
+                                    fill-rule="evenodd"
+                                />
+                                <path
+                                    d="M109.555,115.36v24.51a7.59,7.59,0,0,1-.95,4.21c-.62.86-1.77,1.28-3.44,1.28-1.66,0-2.81-.42-3.44-1.29a7.4056,7.4056,0,0,1-.95-4.31v-24.4h-7.06v23.9c0,3.68.97,6.5,2.94,8.44,1.96,1.95,4.8,2.91,8.51,2.91,3.66,0,6.46-.95,8.41-2.87,1.94-1.92,2.94-4.69,2.97-8.31V115.36Z"
+                                    transform="translate(-6.355)"
+                                    fill="#fff"
+                                    fill-rule="evenodd"
+                                />
+                                <polygon
+                                    points="137.9 115.36 113.88 115.36 113.88 120.61 122.31 120.61 122.31 149.86 129.33 149.86 129.33 120.61 137.9 120.61 137.9 115.36"
+                                    fill="#fff"
+                                    fill-rule="evenodd"
+                                />
+                                <path
+                                    d="M75.435,0a24.041,24.041,0,0,0-17.62,7.3,24.0023,24.0023,0,0,0-7.3,17.62,24.0023,24.0023,0,0,0,7.3,17.62,24.9268,24.9268,0,0,0,35.23,0,24.0116,24.0116,0,0,0,7.31-17.62A24.0116,24.0116,0,0,0,93.045,7.3,24.0347,24.0347,0,0,0,75.435,0Zm45.45,76.14a66.9206,66.9206,0,0,0-.91-7.07,56.65,56.65,0,0,0-1.73-7.04,33.3476,33.3476,0,0,0-2.79-6.33,23.0594,23.0594,0,0,0-4.02-5.25,16.7934,16.7934,0,0,0-5.54-3.47,19.3786,19.3786,0,0,0-7.23-1.3,8.0079,8.0079,0,0,0-2.73,1.39c-1.43.94-3.04,1.97-4.83,3.12a30.96,30.96,0,0,1-7.01,3.11,27.6718,27.6718,0,0,1-17.32,0,30.1714,30.1714,0,0,1-7.01-3.11c-1.8-1.15-3.4-2.18-4.83-3.12a8.19,8.19,0,0,0-2.73-1.39,19.3415,19.3415,0,0,0-7.23,1.3,16.84,16.84,0,0,0-5.55,3.47,22.8092,22.8092,0,0,0-4.03,5.25,33.3476,33.3476,0,0,0-2.79,6.33,54.9925,54.9925,0,0,0-1.71,7.04,64.3978,64.3978,0,0,0-.91,7.07c-.16,2.18-.23,4.42-.23,6.71,0,5.2,1.57,9.29,4.74,12.3q4.725,4.5,12.59,4.51h56.7q7.845,0,12.59-4.51c3.15-3.01,4.73-7.1,4.73-12.3C121.105,80.56,121.025,78.32,120.885,76.14Z"
+                                    transform="translate(-6.355)"
+                                    fill="#fff"
+                                    fill-rule="evenodd"
+                                />
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="nav south">
+                        <a
+                            href="#contact"
+                            class="navlink"
+                            data-template="contact"
+                            data-rotate="-180"
+                            data-rotatedir="X"
+                        >
+                            <svg
+                                class="nav-arrow"
+                                xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 331.0713 195.78"
+                            >
+                                <title>nav-arrow[new]</title>
+                                <path
+                                    class="arrow"
+                                    d="M234.59,262.625a6.195,6.195,0,0,0,3.83-1.6l90.91-90.85a6.0448,6.0448,0,0,0-.02-8.51l-90.88-90.87a6.2342,6.2342,0,0,0-3.84-1.59h-15.5c-2.08,0-2.57,1.18-1.1,2.65l89.81,89.81a6.0265,6.0265,0,0,1,.02,8.51l-89.85,89.78c-1.45,1.47-.96,2.67,1.12,2.67Z"
+                                    transform="translate(0 -67.645)"
+                                    fill="#fff"
+                                    fill-rule="evenodd"
+                                />
+                                <path
+                                    class="box"
+                                    d="M0,78.895v173.28a11.2541,11.2541,0,0,0,11.25,11.25H171.03a20.8335,20.8335,0,0,0,12.8-5.3l88.82-89.55a3.7784,3.7784,0,0,0-.01-5.32l-90.31-90.3a20.7874,20.7874,0,0,0-12.8-5.31H11.25A11.2541,11.2541,0,0,0,0,78.895Zm23.25,171.4a9.7476,9.7476,0,0,1-9.75-9.74V90.515a9.7476,9.7476,0,0,1,9.75-9.74H164.14a18.0706,18.0706,0,0,1,11.1,4.59l77.89,77.84a3.7693,3.7693,0,0,1,.02,5.32l-76.61,77.18a18.0133,18.0133,0,0,1-11.1,4.59Z"
+                                    transform="translate(0 -67.645)"
+                                    fill="#fff"
+                                    fill-rule="evenodd"
+                                />
+                            </svg>
+                            <svg
+                                class="nav-icon"
+                                id="nav-contact"
+                                xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 150.61 150.61"
+                            >
+                                <title>nav-contact[new]</title>
+                                <path
+                                    d="M11.8056,124.9444a3.7155,3.7155,0,0,0-3.372,2.4253,15.1829,15.1829,0,0,0-1.211,6.687q0,8.8608,4.92,8.86a7.5825,7.5825,0,0,0,2.8813-.5668,24.2349,24.2349,0,0,0,2.8052-1.3648v7.0127a11.9968,11.9968,0,0,1-6.3457,1.7007,8.8018,8.8018,0,0,1-7.7783-4.0313Q.9994,141.6362,1,134.0147a24.5174,24.5174,0,0,1,1.31-8.3774,12.14,12.14,0,0,1,3.77-5.5538,9.064,9.064,0,0,1,5.7862-1.9418,12.5048,12.5048,0,0,1,6.9433,2.1626l-1.8545,6.53a18.0906,18.0906,0,0,0-2.4833-1.3437A6.5526,6.5526,0,0,0,11.8056,124.9444Z"
+                                    fill="#fff"
+                                />
+                                <path
+                                    d="M43.039,133.8887q0,7.7476-2.7739,11.7788a9.2357,9.2357,0,0,1-8.1235,4.0313,9.2416,9.2416,0,0,1-8.085-4.0523q-2.8132-4.0516-2.8125-11.8,0-7.6635,2.7969-11.7055A9.27,9.27,0,0,1,32.1723,118.1a9.2123,9.2123,0,0,1,8.108,4.01Q43.0392,126.1207,43.039,133.8887Zm-15.4189,0q0,8.9027,4.5215,8.9024a3.6173,3.6173,0,0,0,3.41-2.1626q1.1112-2.1621,1.1114-6.74a15.5549,15.5549,0,0,0-1.1265-6.7925,3.6022,3.6022,0,0,0-3.3643-2.1938Q27.62,124.9024,27.62,133.8887Z"
+                                    fill="#fff"
+                                />
+                                <path
+                                    d="M68.2954,149.2789h-7.94l-8.1846-21.626h-.1377q.2907,5.1021.291,7.79v13.8365H46.96V118.5826h7.9087l8.1538,21.332h.0923q-.2152-4.64-.2148-7.4536V118.5826h5.3955Z"
+                                    fill="#fff"
+                                />
+                                <path
+                                    d="M82.8989,149.2789H76.8447V125.3643H71.373v-6.7817H88.3555v6.7817H82.8989Z"
+                                    fill="#fff"
+                                />
+                                <path
+                                    d="M105.1816,149.2789l-1.1035-5.753h-7.28l-1.1342,5.753H89.0117l7.311-30.8223H104.4l7.4028,30.8223Zm-2.36-12.5557-.9654-5.0391q-.3376-1.6794-.82-4.3462t-.6357-3.8212q-.1384,1.0707-.5444,3.5273t-1.8008,9.6792Z"
+                                    fill="#fff"
+                                />
+                                <path
+                                    d="M124.078,124.9444a3.7157,3.7157,0,0,0-3.3721,2.4253,15.1828,15.1828,0,0,0-1.2109,6.687q0,8.8608,4.92,8.86a7.5834,7.5834,0,0,0,2.8814-.5668,24.2349,24.2349,0,0,0,2.8052-1.3648v7.0127a11.9977,11.9977,0,0,1-6.3457,1.7007,8.802,8.802,0,0,1-7.7784-4.0313q-2.7056-4.0312-2.705-11.6528a24.517,24.517,0,0,1,1.31-8.3774,12.1394,12.1394,0,0,1,3.77-5.5538,9.064,9.064,0,0,1,5.7862-1.9418,12.5048,12.5048,0,0,1,6.9433,2.1626l-1.8545,6.53a18.081,18.081,0,0,0-2.4834-1.3437A6.552,6.552,0,0,0,124.078,124.9444Z"
+                                    fill="#fff"
+                                />
+                                <path
+                                    d="M144.23,149.2789h-6.0542V125.3643h-5.4717v-6.7817H149.686v6.7817H144.23Z"
+                                    fill="#fff"
+                                />
+                                <path
+                                    d="M124.8691,20.4233a14.5421,14.5421,0,0,1-2.6914,8.2994,26.1432,26.1432,0,0,1-6.707,6.76Q94.8048,49.8281,89.75,53.3452q-.5508.3854-2.3359,1.6763Q85.627,56.3142,84.4453,57.11q-1.1835.7968-2.8574,1.7861a16.7,16.7,0,0,1-3.16,1.4839,8.7366,8.7366,0,0,1-2.7485.4946h-.11a8.7244,8.7244,0,0,1-2.748-.4946,16.6349,16.6349,0,0,1-3.1607-1.4839q-1.6771-.99-2.8579-1.7861T63.835,55.0215q-1.7871-1.2906-2.336-1.6763-5.0016-3.5163-14.4-10.03T35.832,35.4829a27.274,27.274,0,0,1-6.4306-6.3481q-3.0235-4.04-3.023-7.5025a11.0945,11.0945,0,0,1,2.2808-7.145,7.8491,7.8491,0,0,1,6.5132-2.8579h80.9038a8.8647,8.8647,0,0,1,8.7929,8.7939Zm0,16.1587v43.64a8.8173,8.8173,0,0,1-8.7929,8.7939H35.1724a8.819,8.819,0,0,1-8.794-8.7939V36.582A29.1,29.1,0,0,0,31.93,41.3638q19.8955,13.52,27.3159,18.9619,3.1326,2.3079,5.084,3.6a31.2451,31.2451,0,0,0,5.1938,2.6382A15.8269,15.8269,0,0,0,75.5693,67.91h.11a15.83,15.83,0,0,0,6.0454-1.3467,31.2791,31.2791,0,0,0,5.1934-2.6382q1.9512-1.2906,5.084-3.6,9.3456-6.76,27.371-18.9619A30.23,30.23,0,0,0,124.8691,36.582Z"
+                                    fill="#fff"
+                                />
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="nav west">
+                        <a
+                            href="#resume"
+                            class="navlink"
+                            data-template="resume"
+                            data-rotate="-180"
+                            data-rotatedir="Y"
+                        >
+                            <svg
+                                class="nav-arrow"
+                                xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 331.0713 195.78"
+                            >
+                                <title>nav-arrow[new]</title>
+                                <path
+                                    class="arrow"
+                                    d="M234.59,262.625a6.195,6.195,0,0,0,3.83-1.6l90.91-90.85a6.0448,6.0448,0,0,0-.02-8.51l-90.88-90.87a6.2342,6.2342,0,0,0-3.84-1.59h-15.5c-2.08,0-2.57,1.18-1.1,2.65l89.81,89.81a6.0265,6.0265,0,0,1,.02,8.51l-89.85,89.78c-1.45,1.47-.96,2.67,1.12,2.67Z"
+                                    transform="translate(0 -67.645)"
+                                    fill="#fff"
+                                    fill-rule="evenodd"
+                                />
+                                <path
+                                    class="box"
+                                    d="M0,78.895v173.28a11.2541,11.2541,0,0,0,11.25,11.25H171.03a20.8335,20.8335,0,0,0,12.8-5.3l88.82-89.55a3.7784,3.7784,0,0,0-.01-5.32l-90.31-90.3a20.7874,20.7874,0,0,0-12.8-5.31H11.25A11.2541,11.2541,0,0,0,0,78.895Zm23.25,171.4a9.7476,9.7476,0,0,1-9.75-9.74V90.515a9.7476,9.7476,0,0,1,9.75-9.74H164.14a18.0706,18.0706,0,0,1,11.1,4.59l77.89,77.84a3.7693,3.7693,0,0,1,.02,5.32l-76.61,77.18a18.0133,18.0133,0,0,1-11.1,4.59Z"
+                                    transform="translate(0 -67.645)"
+                                    fill="#fff"
+                                    fill-rule="evenodd"
+                                />
+                            </svg>
+                            <svg
+                                class="nav-icon"
+                                id="nav-resume"
+                                xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 150.1494 148.896"
+                            >
+                                <title>nav-resume[new]</title>
+                                <path
+                                    d="M116.3771,42.3244V93.6637a6.1352,6.1352,0,0,1-6.1612,6.1607H40.3946a6.1352,6.1352,0,0,1-6.1606-6.1607V7.4137A5.9409,5.9409,0,0,1,36.0309,3.05a5.9423,5.9423,0,0,1,4.3637-1.7968H75.3053V36.1637a6.1352,6.1352,0,0,0,6.1606,6.1607ZM99.9484,64.9137V60.8063a1.9767,1.9767,0,0,0-2.0538-2.0532H52.7159a1.9766,1.9766,0,0,0-2.0532,2.0532v4.1074a1.9766,1.9766,0,0,0,2.0532,2.0532H97.8946a1.9767,1.9767,0,0,0,2.0538-2.0532Zm0,16.4282V77.235a1.9775,1.9775,0,0,0-2.0538-2.0537H52.7159a1.9774,1.9774,0,0,0-2.0532,2.0537v4.1069a1.9774,1.9774,0,0,0,2.0532,2.0537H97.8946a1.9775,1.9775,0,0,0,2.0538-2.0537ZM116.1842,34.11H83.52V1.4454a15.5959,15.5959,0,0,1,8.4712,4.1714l20.022,20.022A15.5966,15.5966,0,0,1,116.1842,34.11Z"
+                                    transform="translate(-0.7496 -1.2531)"
+                                    fill="#fff"
+                                />
+                                <path
+                                    d="M.75,117.0275a47.635,47.635,0,0,1,8.4561-.6856c4.1655,0,7.0815.7349,9.081,2.5967a9.0726,9.0726,0,0,1,2.583,6.9082,8.7352,8.7352,0,0,1-4.9575,8.1333v.147c1.958.9311,3.041,3.1357,3.7491,6.1738.875,3.7237,1.75,8.0352,2.2915,9.3091H15.4542a46.824,46.824,0,0,1-1.958-7.6924c-.7495-4.1157-1.9575-5.2427-4.54-5.2915H7.04V149.61H.75Zm6.29,14.209H9.5392c3.1655,0,5.04-1.8619,5.04-4.7525,0-3.0381-1.7495-4.5566-4.6655-4.6059a13.5157,13.5157,0,0,0-2.874.2451Z"
+                                    transform="translate(-0.7496 -1.2531)"
+                                    fill="#fff"
+                                />
+                                <path
+                                    d="M41.985,135.6461H31.6539v7.8394H43.193V149.61H25.2809V116.5866H42.61v6.1245H31.6539V129.57H41.985Z"
+                                    transform="translate(-0.7496 -1.2531)"
+                                    fill="#fff"
+                                />
+                                <path
+                                    d="M47.5631,141.9176a14.3165,14.3165,0,0,0,7.04,2.0576c2.9161,0,4.4571-1.4209,4.4571-3.5766,0-2.0576-1.333-3.2334-4.7071-4.6543-4.6655-1.9112-7.7065-4.9488-7.7065-9.7505,0-5.6343,3.999-9.9458,10.6226-9.9458a15.0342,15.0342,0,0,1,7.165,1.6655L63.0177,123.74a11.7588,11.7588,0,0,0-5.8735-1.5674c-2.75,0-4.0826,1.47-4.0826,3.1846,0,2.1069,1.583,3.0376,5.2071,4.6543,4.9575,2.1562,7.29,5.1938,7.29,9.8486,0,5.5361-3.624,10.24-11.3306,10.24a16.1178,16.1178,0,0,1-7.9565-2.0087Z"
+                                    transform="translate(-0.7496 -1.2531)"
+                                    fill="#fff"
+                                />
+                                <path
+                                    d="M76.0109,116.5866v19.0107c0,5.6836,1.833,8.5742,5.082,8.5742,3.3325,0,5.1655-2.7436,5.1655-8.5742V116.5866H92.59v18.5205c0,10.1914-4.3736,15.042-11.7051,15.042-7.0816,0-11.2476-4.606-11.2476-15.14V116.5866Z"
+                                    transform="translate(-0.7496 -1.2531)"
+                                    fill="#fff"
+                                />
+                                <path
+                                    d="M121.6617,136.9689c-.125-3.9688-.25-8.77-.25-13.5718h-.125c-.875,4.2139-2.041,8.9175-3.1245,12.7881l-3.4155,12.8857H109.79l-2.9995-12.788c-.9165-3.8707-1.8746-8.5743-2.5411-12.8858h-.083c-.167,4.4585-.292,9.5542-.5,13.67l-.5,12.543H97.2926l1.791-33.0234H107.54l2.749,11.0244c.875,3.8213,1.75,7.937,2.3745,11.8076h.125c.7915-3.8213,1.7495-8.1821,2.666-11.8569l2.9995-10.9751h8.29l1.541,33.0234h-6.2066Z"
+                                    transform="translate(-0.7496 -1.2531)"
+                                    fill="#fff"
+                                />
+                                <path
+                                    d="M149.691,135.6461H139.36v7.8394h11.539V149.61H132.9869V116.5866H150.316v6.1245H139.36V129.57h10.331Z"
+                                    transform="translate(-0.7496 -1.2531)"
+                                    fill="#fff"
+                                />
+                            </svg>
+                        </a>
+                    </div>
+                </nav>
+            </div>
+
+            <!-- ABOUT page -->
+            <div id="about" data-background="vscode1.png" class="page__layout">
+                <div class="main">
+                    <div class="brand--about">
+                        <h1 class="brand__heading">About Me</h1>
+                        <div class="brand__subheading--wrapper">
+                            <h2 class="brand__subheading">M Bryan Elliott</h2>
+                        </div>
+                    </div>
+                    <div class="profile">
+                        <img
+                            src="images/elliott-programmer_profile.jpg"
+                            class="profile__img img-responsive"
+                            alt="User Profile Photo"
+                        />
+                    </div>
+                    <div class="bio">
+                        <div id="bio-body" class="bio__body"></div>
+                    </div>
                 </div>
-                <div class="bio">
-                    <div id="bio-body" class="bio__body"></div>
+                <div class="nav north"></div>
+                <div class="nav east">
+                    <a
+                        href="#resume"
+                        class="navlink"
+                        data-template="resume"
+                        data-rotate="+180"
+                        data-rotatedir="Y"
+                    >
+                        <svg
+                            class="nav-arrow"
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 331.0713 195.78"
+                        >
+                            <title>nav-arrow[new]</title>
+                            <path
+                                class="arrow"
+                                d="M234.59,262.625a6.195,6.195,0,0,0,3.83-1.6l90.91-90.85a6.0448,6.0448,0,0,0-.02-8.51l-90.88-90.87a6.2342,6.2342,0,0,0-3.84-1.59h-15.5c-2.08,0-2.57,1.18-1.1,2.65l89.81,89.81a6.0265,6.0265,0,0,1,.02,8.51l-89.85,89.78c-1.45,1.47-.96,2.67,1.12,2.67Z"
+                                transform="translate(0 -67.645)"
+                                fill="#fff"
+                                fill-rule="evenodd"
+                            />
+                            <path
+                                class="box"
+                                d="M0,78.895v173.28a11.2541,11.2541,0,0,0,11.25,11.25H171.03a20.8335,20.8335,0,0,0,12.8-5.3l88.82-89.55a3.7784,3.7784,0,0,0-.01-5.32l-90.31-90.3a20.7874,20.7874,0,0,0-12.8-5.31H11.25A11.2541,11.2541,0,0,0,0,78.895Zm23.25,171.4a9.7476,9.7476,0,0,1-9.75-9.74V90.515a9.7476,9.7476,0,0,1,9.75-9.74H164.14a18.0706,18.0706,0,0,1,11.1,4.59l77.89,77.84a3.7693,3.7693,0,0,1,.02,5.32l-76.61,77.18a18.0133,18.0133,0,0,1-11.1,4.59Z"
+                                transform="translate(0 -67.645)"
+                                fill="#fff"
+                                fill-rule="evenodd"
+                            />
+                        </svg>
+                        <svg
+                            class="nav-icon"
+                            id="nav-resume"
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 150.1494 148.896"
+                        >
+                            <title>nav-resume[new]</title>
+                            <path
+                                d="M116.3771,42.3244V93.6637a6.1352,6.1352,0,0,1-6.1612,6.1607H40.3946a6.1352,6.1352,0,0,1-6.1606-6.1607V7.4137A5.9409,5.9409,0,0,1,36.0309,3.05a5.9423,5.9423,0,0,1,4.3637-1.7968H75.3053V36.1637a6.1352,6.1352,0,0,0,6.1606,6.1607ZM99.9484,64.9137V60.8063a1.9767,1.9767,0,0,0-2.0538-2.0532H52.7159a1.9766,1.9766,0,0,0-2.0532,2.0532v4.1074a1.9766,1.9766,0,0,0,2.0532,2.0532H97.8946a1.9767,1.9767,0,0,0,2.0538-2.0532Zm0,16.4282V77.235a1.9775,1.9775,0,0,0-2.0538-2.0537H52.7159a1.9774,1.9774,0,0,0-2.0532,2.0537v4.1069a1.9774,1.9774,0,0,0,2.0532,2.0537H97.8946a1.9775,1.9775,0,0,0,2.0538-2.0537ZM116.1842,34.11H83.52V1.4454a15.5959,15.5959,0,0,1,8.4712,4.1714l20.022,20.022A15.5966,15.5966,0,0,1,116.1842,34.11Z"
+                                transform="translate(-0.7496 -1.2531)"
+                                fill="#fff"
+                            />
+                            <path
+                                d="M.75,117.0275a47.635,47.635,0,0,1,8.4561-.6856c4.1655,0,7.0815.7349,9.081,2.5967a9.0726,9.0726,0,0,1,2.583,6.9082,8.7352,8.7352,0,0,1-4.9575,8.1333v.147c1.958.9311,3.041,3.1357,3.7491,6.1738.875,3.7237,1.75,8.0352,2.2915,9.3091H15.4542a46.824,46.824,0,0,1-1.958-7.6924c-.7495-4.1157-1.9575-5.2427-4.54-5.2915H7.04V149.61H.75Zm6.29,14.209H9.5392c3.1655,0,5.04-1.8619,5.04-4.7525,0-3.0381-1.7495-4.5566-4.6655-4.6059a13.5157,13.5157,0,0,0-2.874.2451Z"
+                                transform="translate(-0.7496 -1.2531)"
+                                fill="#fff"
+                            />
+                            <path
+                                d="M41.985,135.6461H31.6539v7.8394H43.193V149.61H25.2809V116.5866H42.61v6.1245H31.6539V129.57H41.985Z"
+                                transform="translate(-0.7496 -1.2531)"
+                                fill="#fff"
+                            />
+                            <path
+                                d="M47.5631,141.9176a14.3165,14.3165,0,0,0,7.04,2.0576c2.9161,0,4.4571-1.4209,4.4571-3.5766,0-2.0576-1.333-3.2334-4.7071-4.6543-4.6655-1.9112-7.7065-4.9488-7.7065-9.7505,0-5.6343,3.999-9.9458,10.6226-9.9458a15.0342,15.0342,0,0,1,7.165,1.6655L63.0177,123.74a11.7588,11.7588,0,0,0-5.8735-1.5674c-2.75,0-4.0826,1.47-4.0826,3.1846,0,2.1069,1.583,3.0376,5.2071,4.6543,4.9575,2.1562,7.29,5.1938,7.29,9.8486,0,5.5361-3.624,10.24-11.3306,10.24a16.1178,16.1178,0,0,1-7.9565-2.0087Z"
+                                transform="translate(-0.7496 -1.2531)"
+                                fill="#fff"
+                            />
+                            <path
+                                d="M76.0109,116.5866v19.0107c0,5.6836,1.833,8.5742,5.082,8.5742,3.3325,0,5.1655-2.7436,5.1655-8.5742V116.5866H92.59v18.5205c0,10.1914-4.3736,15.042-11.7051,15.042-7.0816,0-11.2476-4.606-11.2476-15.14V116.5866Z"
+                                transform="translate(-0.7496 -1.2531)"
+                                fill="#fff"
+                            />
+                            <path
+                                d="M121.6617,136.9689c-.125-3.9688-.25-8.77-.25-13.5718h-.125c-.875,4.2139-2.041,8.9175-3.1245,12.7881l-3.4155,12.8857H109.79l-2.9995-12.788c-.9165-3.8707-1.8746-8.5743-2.5411-12.8858h-.083c-.167,4.4585-.292,9.5542-.5,13.67l-.5,12.543H97.2926l1.791-33.0234H107.54l2.749,11.0244c.875,3.8213,1.75,7.937,2.3745,11.8076h.125c.7915-3.8213,1.7495-8.1821,2.666-11.8569l2.9995-10.9751h8.29l1.541,33.0234h-6.2066Z"
+                                transform="translate(-0.7496 -1.2531)"
+                                fill="#fff"
+                            />
+                            <path
+                                d="M149.691,135.6461H139.36v7.8394h11.539V149.61H132.9869V116.5866H150.316v6.1245H139.36V129.57h10.331Z"
+                                transform="translate(-0.7496 -1.2531)"
+                                fill="#fff"
+                            />
+                        </svg>
+                    </a>
+                </div>
+                <div class="nav south">
+                    <a
+                        href="#contact"
+                        class="navlink"
+                        data-template="contact"
+                        data-rotate="-180"
+                        data-rotatedir="X"
+                    >
+                        <svg
+                            class="nav-arrow"
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 331.0713 195.78"
+                        >
+                            <title>nav-arrow[new]</title>
+                            <path
+                                class="arrow"
+                                d="M234.59,262.625a6.195,6.195,0,0,0,3.83-1.6l90.91-90.85a6.0448,6.0448,0,0,0-.02-8.51l-90.88-90.87a6.2342,6.2342,0,0,0-3.84-1.59h-15.5c-2.08,0-2.57,1.18-1.1,2.65l89.81,89.81a6.0265,6.0265,0,0,1,.02,8.51l-89.85,89.78c-1.45,1.47-.96,2.67,1.12,2.67Z"
+                                transform="translate(0 -67.645)"
+                                fill="#fff"
+                                fill-rule="evenodd"
+                            />
+                            <path
+                                class="box"
+                                d="M0,78.895v173.28a11.2541,11.2541,0,0,0,11.25,11.25H171.03a20.8335,20.8335,0,0,0,12.8-5.3l88.82-89.55a3.7784,3.7784,0,0,0-.01-5.32l-90.31-90.3a20.7874,20.7874,0,0,0-12.8-5.31H11.25A11.2541,11.2541,0,0,0,0,78.895Zm23.25,171.4a9.7476,9.7476,0,0,1-9.75-9.74V90.515a9.7476,9.7476,0,0,1,9.75-9.74H164.14a18.0706,18.0706,0,0,1,11.1,4.59l77.89,77.84a3.7693,3.7693,0,0,1,.02,5.32l-76.61,77.18a18.0133,18.0133,0,0,1-11.1,4.59Z"
+                                transform="translate(0 -67.645)"
+                                fill="#fff"
+                                fill-rule="evenodd"
+                            />
+                        </svg>
+                        <svg
+                            class="nav-icon"
+                            id="nav-contact"
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 150.61 150.61"
+                        >
+                            <title>nav-contact[new]</title>
+                            <path
+                                d="M11.8056,124.9444a3.7155,3.7155,0,0,0-3.372,2.4253,15.1829,15.1829,0,0,0-1.211,6.687q0,8.8608,4.92,8.86a7.5825,7.5825,0,0,0,2.8813-.5668,24.2349,24.2349,0,0,0,2.8052-1.3648v7.0127a11.9968,11.9968,0,0,1-6.3457,1.7007,8.8018,8.8018,0,0,1-7.7783-4.0313Q.9994,141.6362,1,134.0147a24.5174,24.5174,0,0,1,1.31-8.3774,12.14,12.14,0,0,1,3.77-5.5538,9.064,9.064,0,0,1,5.7862-1.9418,12.5048,12.5048,0,0,1,6.9433,2.1626l-1.8545,6.53a18.0906,18.0906,0,0,0-2.4833-1.3437A6.5526,6.5526,0,0,0,11.8056,124.9444Z"
+                                fill="#fff"
+                            />
+                            <path
+                                d="M43.039,133.8887q0,7.7476-2.7739,11.7788a9.2357,9.2357,0,0,1-8.1235,4.0313,9.2416,9.2416,0,0,1-8.085-4.0523q-2.8132-4.0516-2.8125-11.8,0-7.6635,2.7969-11.7055A9.27,9.27,0,0,1,32.1723,118.1a9.2123,9.2123,0,0,1,8.108,4.01Q43.0392,126.1207,43.039,133.8887Zm-15.4189,0q0,8.9027,4.5215,8.9024a3.6173,3.6173,0,0,0,3.41-2.1626q1.1112-2.1621,1.1114-6.74a15.5549,15.5549,0,0,0-1.1265-6.7925,3.6022,3.6022,0,0,0-3.3643-2.1938Q27.62,124.9024,27.62,133.8887Z"
+                                fill="#fff"
+                            />
+                            <path
+                                d="M68.2954,149.2789h-7.94l-8.1846-21.626h-.1377q.2907,5.1021.291,7.79v13.8365H46.96V118.5826h7.9087l8.1538,21.332h.0923q-.2152-4.64-.2148-7.4536V118.5826h5.3955Z"
+                                fill="#fff"
+                            />
+                            <path
+                                d="M82.8989,149.2789H76.8447V125.3643H71.373v-6.7817H88.3555v6.7817H82.8989Z"
+                                fill="#fff"
+                            />
+                            <path
+                                d="M105.1816,149.2789l-1.1035-5.753h-7.28l-1.1342,5.753H89.0117l7.311-30.8223H104.4l7.4028,30.8223Zm-2.36-12.5557-.9654-5.0391q-.3376-1.6794-.82-4.3462t-.6357-3.8212q-.1384,1.0707-.5444,3.5273t-1.8008,9.6792Z"
+                                fill="#fff"
+                            />
+                            <path
+                                d="M124.078,124.9444a3.7157,3.7157,0,0,0-3.3721,2.4253,15.1828,15.1828,0,0,0-1.2109,6.687q0,8.8608,4.92,8.86a7.5834,7.5834,0,0,0,2.8814-.5668,24.2349,24.2349,0,0,0,2.8052-1.3648v7.0127a11.9977,11.9977,0,0,1-6.3457,1.7007,8.802,8.802,0,0,1-7.7784-4.0313q-2.7056-4.0312-2.705-11.6528a24.517,24.517,0,0,1,1.31-8.3774,12.1394,12.1394,0,0,1,3.77-5.5538,9.064,9.064,0,0,1,5.7862-1.9418,12.5048,12.5048,0,0,1,6.9433,2.1626l-1.8545,6.53a18.081,18.081,0,0,0-2.4834-1.3437A6.552,6.552,0,0,0,124.078,124.9444Z"
+                                fill="#fff"
+                            />
+                            <path
+                                d="M144.23,149.2789h-6.0542V125.3643h-5.4717v-6.7817H149.686v6.7817H144.23Z"
+                                fill="#fff"
+                            />
+                            <path
+                                d="M124.8691,20.4233a14.5421,14.5421,0,0,1-2.6914,8.2994,26.1432,26.1432,0,0,1-6.707,6.76Q94.8048,49.8281,89.75,53.3452q-.5508.3854-2.3359,1.6763Q85.627,56.3142,84.4453,57.11q-1.1835.7968-2.8574,1.7861a16.7,16.7,0,0,1-3.16,1.4839,8.7366,8.7366,0,0,1-2.7485.4946h-.11a8.7244,8.7244,0,0,1-2.748-.4946,16.6349,16.6349,0,0,1-3.1607-1.4839q-1.6771-.99-2.8579-1.7861T63.835,55.0215q-1.7871-1.2906-2.336-1.6763-5.0016-3.5163-14.4-10.03T35.832,35.4829a27.274,27.274,0,0,1-6.4306-6.3481q-3.0235-4.04-3.023-7.5025a11.0945,11.0945,0,0,1,2.2808-7.145,7.8491,7.8491,0,0,1,6.5132-2.8579h80.9038a8.8647,8.8647,0,0,1,8.7929,8.7939Zm0,16.1587v43.64a8.8173,8.8173,0,0,1-8.7929,8.7939H35.1724a8.819,8.819,0,0,1-8.794-8.7939V36.582A29.1,29.1,0,0,0,31.93,41.3638q19.8955,13.52,27.3159,18.9619,3.1326,2.3079,5.084,3.6a31.2451,31.2451,0,0,0,5.1938,2.6382A15.8269,15.8269,0,0,0,75.5693,67.91h.11a15.83,15.83,0,0,0,6.0454-1.3467,31.2791,31.2791,0,0,0,5.1934-2.6382q1.9512-1.2906,5.084-3.6,9.3456-6.76,27.371-18.9619A30.23,30.23,0,0,0,124.8691,36.582Z"
+                                fill="#fff"
+                            />
+                        </svg>
+                    </a>
+                </div>
+                <div class="nav west">
+                    <a
+                        href="#home"
+                        class="navlink"
+                        data-template="home"
+                        data-rotate="-180"
+                        data-rotatedir="Y"
+                    >
+                        <svg
+                            class="nav-arrow"
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 331.0713 195.78"
+                        >
+                            <title>nav-arrow[new]</title>
+                            <path
+                                class="arrow"
+                                d="M234.59,262.625a6.195,6.195,0,0,0,3.83-1.6l90.91-90.85a6.0448,6.0448,0,0,0-.02-8.51l-90.88-90.87a6.2342,6.2342,0,0,0-3.84-1.59h-15.5c-2.08,0-2.57,1.18-1.1,2.65l89.81,89.81a6.0265,6.0265,0,0,1,.02,8.51l-89.85,89.78c-1.45,1.47-.96,2.67,1.12,2.67Z"
+                                transform="translate(0 -67.645)"
+                                fill="#fff"
+                                fill-rule="evenodd"
+                            />
+                            <path
+                                class="box"
+                                d="M0,78.895v173.28a11.2541,11.2541,0,0,0,11.25,11.25H171.03a20.8335,20.8335,0,0,0,12.8-5.3l88.82-89.55a3.7784,3.7784,0,0,0-.01-5.32l-90.31-90.3a20.7874,20.7874,0,0,0-12.8-5.31H11.25A11.2541,11.2541,0,0,0,0,78.895Zm23.25,171.4a9.7476,9.7476,0,0,1-9.75-9.74V90.515a9.7476,9.7476,0,0,1,9.75-9.74H164.14a18.0706,18.0706,0,0,1,11.1,4.59l77.89,77.84a3.7693,3.7693,0,0,1,.02,5.32l-76.61,77.18a18.0133,18.0133,0,0,1-11.1,4.59Z"
+                                transform="translate(0 -67.645)"
+                                fill="#fff"
+                                fill-rule="evenodd"
+                            />
+                        </svg>
+                        <svg
+                            class="nav-icon"
+                            id="nav-home"
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 150.61 150.61"
+                        >
+                            <title>nav-home[new]</title>
+                            <path
+                                d="M47.587,149.881H41.2193V136.7853H33.857V149.881H27.4888V117.757H33.857v11.9092h7.3623V117.757H47.587Z"
+                                fill="#fff"
+                            />
+                            <path
+                                d="M74.4674,133.775q0,8.1079-2.9034,12.3267a9.664,9.664,0,0,1-8.5009,4.2187,9.6725,9.6725,0,0,1-8.4615-4.2407q-2.9436-4.2407-2.9433-12.3486,0-8.02,2.9277-12.2495a9.7007,9.7007,0,0,1,8.5088-4.23,9.64,9.64,0,0,1,8.4853,4.1968Q74.4674,125.6451,74.4674,133.775Zm-16.1363,0q0,9.3165,4.732,9.3164a3.786,3.786,0,0,0,3.5688-2.2631q1.1624-2.2632,1.1631-7.0533,0-4.812-1.1792-7.1079a3.77,3.77,0,0,0-3.521-2.2964Q58.3311,124.3707,58.3311,133.775Z"
+                                fill="#fff"
+                            />
+                            <path
+                                d="M88.7882,149.881l-4.7959-23.1372h-.1446q.3369,5.9106.3369,9.1846V149.881H78.57V117.757h8.437L91.9,140.5646h.1279l4.7964-22.8076h8.4531v32.124H99.4547V135.7965q0-1.0986.0239-2.4389t.2168-6.57h-.1446L94.8189,149.881Z"
+                                fill="#fff"
+                            />
+                            <path
+                                d="M124.1212,149.881H110.1983V117.757h13.9229v6.9653h-7.587v5.0537H123.56v6.9653h-7.0254v6.0645h7.587Z"
+                                fill="#fff"
+                            />
+                            <path
+                                d="M131.9849,55.6544l-4.3594,5.7813a2.33,2.33,0,0,1-1.4765.8594h-.211a2.0241,2.0241,0,0,1-1.4765-.5469L75.8052,16.67,27.149,61.7482a2.4207,2.4207,0,0,1-1.6875.5469,2.3233,2.3233,0,0,1-1.4766-.8594l-4.3594-5.7813a2.7237,2.7237,0,0,1-.4922-1.8359,2.3537,2.3537,0,0,1,.7735-1.68L70.4615,5.3419a8.0449,8.0449,0,0,1,10.6875,0L98.3052,21.2794V6.0451a2.5854,2.5854,0,0,1,.6328-1.7969,2.0771,2.0771,0,0,1,1.6172-.7031h13.5a2.0791,2.0791,0,0,1,1.6172.7031,2.5849,2.5849,0,0,1,.6328,1.7969V37.92l15.3985,14.2187a2.3657,2.3657,0,0,1,.7734,1.68A2.7389,2.7389,0,0,1,131.9849,55.6544Zm-15.68,5.3907v37.5a5.083,5.083,0,0,1-1.3359,3.5156,4.124,4.124,0,0,1-3.1641,1.4844h-27v-30h-18v30h-27a4.1194,4.1194,0,0,1-3.164-1.4844,5.0758,5.0758,0,0,1-1.336-3.5156v-37.5a1.1251,1.1251,0,0,1,.0352-.2344,1.2054,1.2054,0,0,0,.0351-.2344l40.43-37.0312,40.43,37.0312A1.22,1.22,0,0,1,116.3052,61.0451Z"
+                                fill="#fff"
+                            />
+                        </svg>
+                    </a>
                 </div>
             </div>
-            <div class="nav north">
+            <!-- RESUME page -->
+            <div id="resume" data-background="vscode1.png" class="page__layout">
+                <div class="nav north"></div>
+                <div class="nav east">
+                    <a
+                        href="#home"
+                        class="navlink"
+                        data-template="home"
+                        data-rotate="+180"
+                        data-rotatedir="Y"
+                    >
+                        <svg
+                            class="nav-arrow"
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 331.0713 195.78"
+                        >
+                            <title>nav-arrow[new]</title>
+                            <path
+                                class="arrow"
+                                d="M234.59,262.625a6.195,6.195,0,0,0,3.83-1.6l90.91-90.85a6.0448,6.0448,0,0,0-.02-8.51l-90.88-90.87a6.2342,6.2342,0,0,0-3.84-1.59h-15.5c-2.08,0-2.57,1.18-1.1,2.65l89.81,89.81a6.0265,6.0265,0,0,1,.02,8.51l-89.85,89.78c-1.45,1.47-.96,2.67,1.12,2.67Z"
+                                transform="translate(0 -67.645)"
+                                fill="#fff"
+                                fill-rule="evenodd"
+                            />
+                            <path
+                                class="box"
+                                d="M0,78.895v173.28a11.2541,11.2541,0,0,0,11.25,11.25H171.03a20.8335,20.8335,0,0,0,12.8-5.3l88.82-89.55a3.7784,3.7784,0,0,0-.01-5.32l-90.31-90.3a20.7874,20.7874,0,0,0-12.8-5.31H11.25A11.2541,11.2541,0,0,0,0,78.895Zm23.25,171.4a9.7476,9.7476,0,0,1-9.75-9.74V90.515a9.7476,9.7476,0,0,1,9.75-9.74H164.14a18.0706,18.0706,0,0,1,11.1,4.59l77.89,77.84a3.7693,3.7693,0,0,1,.02,5.32l-76.61,77.18a18.0133,18.0133,0,0,1-11.1,4.59Z"
+                                transform="translate(0 -67.645)"
+                                fill="#fff"
+                                fill-rule="evenodd"
+                            />
+                        </svg>
+                        <svg
+                            class="nav-icon"
+                            id="nav-home"
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 150.61 150.61"
+                        >
+                            <title>nav-home[new]</title>
+                            <path
+                                d="M47.587,149.881H41.2193V136.7853H33.857V149.881H27.4888V117.757H33.857v11.9092h7.3623V117.757H47.587Z"
+                                fill="#fff"
+                            />
+                            <path
+                                d="M74.4674,133.775q0,8.1079-2.9034,12.3267a9.664,9.664,0,0,1-8.5009,4.2187,9.6725,9.6725,0,0,1-8.4615-4.2407q-2.9436-4.2407-2.9433-12.3486,0-8.02,2.9277-12.2495a9.7007,9.7007,0,0,1,8.5088-4.23,9.64,9.64,0,0,1,8.4853,4.1968Q74.4674,125.6451,74.4674,133.775Zm-16.1363,0q0,9.3165,4.732,9.3164a3.786,3.786,0,0,0,3.5688-2.2631q1.1624-2.2632,1.1631-7.0533,0-4.812-1.1792-7.1079a3.77,3.77,0,0,0-3.521-2.2964Q58.3311,124.3707,58.3311,133.775Z"
+                                fill="#fff"
+                            />
+                            <path
+                                d="M88.7882,149.881l-4.7959-23.1372h-.1446q.3369,5.9106.3369,9.1846V149.881H78.57V117.757h8.437L91.9,140.5646h.1279l4.7964-22.8076h8.4531v32.124H99.4547V135.7965q0-1.0986.0239-2.4389t.2168-6.57h-.1446L94.8189,149.881Z"
+                                fill="#fff"
+                            />
+                            <path
+                                d="M124.1212,149.881H110.1983V117.757h13.9229v6.9653h-7.587v5.0537H123.56v6.9653h-7.0254v6.0645h7.587Z"
+                                fill="#fff"
+                            />
+                            <path
+                                d="M131.9849,55.6544l-4.3594,5.7813a2.33,2.33,0,0,1-1.4765.8594h-.211a2.0241,2.0241,0,0,1-1.4765-.5469L75.8052,16.67,27.149,61.7482a2.4207,2.4207,0,0,1-1.6875.5469,2.3233,2.3233,0,0,1-1.4766-.8594l-4.3594-5.7813a2.7237,2.7237,0,0,1-.4922-1.8359,2.3537,2.3537,0,0,1,.7735-1.68L70.4615,5.3419a8.0449,8.0449,0,0,1,10.6875,0L98.3052,21.2794V6.0451a2.5854,2.5854,0,0,1,.6328-1.7969,2.0771,2.0771,0,0,1,1.6172-.7031h13.5a2.0791,2.0791,0,0,1,1.6172.7031,2.5849,2.5849,0,0,1,.6328,1.7969V37.92l15.3985,14.2187a2.3657,2.3657,0,0,1,.7734,1.68A2.7389,2.7389,0,0,1,131.9849,55.6544Zm-15.68,5.3907v37.5a5.083,5.083,0,0,1-1.3359,3.5156,4.124,4.124,0,0,1-3.1641,1.4844h-27v-30h-18v30h-27a4.1194,4.1194,0,0,1-3.164-1.4844,5.0758,5.0758,0,0,1-1.336-3.5156v-37.5a1.1251,1.1251,0,0,1,.0352-.2344,1.2054,1.2054,0,0,0,.0351-.2344l40.43-37.0312,40.43,37.0312A1.22,1.22,0,0,1,116.3052,61.0451Z"
+                                fill="#fff"
+                            />
+                        </svg>
+                    </a>
+                </div>
+                <div class="nav south">
+                    <a
+                        href="#contact"
+                        class="navlink"
+                        data-template="contact"
+                        data-rotate="-180"
+                        data-rotatedir="X"
+                    >
+                        <svg
+                            class="nav-arrow"
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 331.0713 195.78"
+                        >
+                            <title>nav-arrow[new]</title>
+                            <path
+                                class="arrow"
+                                d="M234.59,262.625a6.195,6.195,0,0,0,3.83-1.6l90.91-90.85a6.0448,6.0448,0,0,0-.02-8.51l-90.88-90.87a6.2342,6.2342,0,0,0-3.84-1.59h-15.5c-2.08,0-2.57,1.18-1.1,2.65l89.81,89.81a6.0265,6.0265,0,0,1,.02,8.51l-89.85,89.78c-1.45,1.47-.96,2.67,1.12,2.67Z"
+                                transform="translate(0 -67.645)"
+                                fill="#fff"
+                                fill-rule="evenodd"
+                            />
+                            <path
+                                class="box"
+                                d="M0,78.895v173.28a11.2541,11.2541,0,0,0,11.25,11.25H171.03a20.8335,20.8335,0,0,0,12.8-5.3l88.82-89.55a3.7784,3.7784,0,0,0-.01-5.32l-90.31-90.3a20.7874,20.7874,0,0,0-12.8-5.31H11.25A11.2541,11.2541,0,0,0,0,78.895Zm23.25,171.4a9.7476,9.7476,0,0,1-9.75-9.74V90.515a9.7476,9.7476,0,0,1,9.75-9.74H164.14a18.0706,18.0706,0,0,1,11.1,4.59l77.89,77.84a3.7693,3.7693,0,0,1,.02,5.32l-76.61,77.18a18.0133,18.0133,0,0,1-11.1,4.59Z"
+                                transform="translate(0 -67.645)"
+                                fill="#fff"
+                                fill-rule="evenodd"
+                            />
+                        </svg>
+                        <svg
+                            class="nav-icon"
+                            id="nav-contact"
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 150.61 150.61"
+                        >
+                            <title>nav-contact[new]</title>
+                            <path
+                                d="M11.8056,124.9444a3.7155,3.7155,0,0,0-3.372,2.4253,15.1829,15.1829,0,0,0-1.211,6.687q0,8.8608,4.92,8.86a7.5825,7.5825,0,0,0,2.8813-.5668,24.2349,24.2349,0,0,0,2.8052-1.3648v7.0127a11.9968,11.9968,0,0,1-6.3457,1.7007,8.8018,8.8018,0,0,1-7.7783-4.0313Q.9994,141.6362,1,134.0147a24.5174,24.5174,0,0,1,1.31-8.3774,12.14,12.14,0,0,1,3.77-5.5538,9.064,9.064,0,0,1,5.7862-1.9418,12.5048,12.5048,0,0,1,6.9433,2.1626l-1.8545,6.53a18.0906,18.0906,0,0,0-2.4833-1.3437A6.5526,6.5526,0,0,0,11.8056,124.9444Z"
+                                fill="#fff"
+                            />
+                            <path
+                                d="M43.039,133.8887q0,7.7476-2.7739,11.7788a9.2357,9.2357,0,0,1-8.1235,4.0313,9.2416,9.2416,0,0,1-8.085-4.0523q-2.8132-4.0516-2.8125-11.8,0-7.6635,2.7969-11.7055A9.27,9.27,0,0,1,32.1723,118.1a9.2123,9.2123,0,0,1,8.108,4.01Q43.0392,126.1207,43.039,133.8887Zm-15.4189,0q0,8.9027,4.5215,8.9024a3.6173,3.6173,0,0,0,3.41-2.1626q1.1112-2.1621,1.1114-6.74a15.5549,15.5549,0,0,0-1.1265-6.7925,3.6022,3.6022,0,0,0-3.3643-2.1938Q27.62,124.9024,27.62,133.8887Z"
+                                fill="#fff"
+                            />
+                            <path
+                                d="M68.2954,149.2789h-7.94l-8.1846-21.626h-.1377q.2907,5.1021.291,7.79v13.8365H46.96V118.5826h7.9087l8.1538,21.332h.0923q-.2152-4.64-.2148-7.4536V118.5826h5.3955Z"
+                                fill="#fff"
+                            />
+                            <path
+                                d="M82.8989,149.2789H76.8447V125.3643H71.373v-6.7817H88.3555v6.7817H82.8989Z"
+                                fill="#fff"
+                            />
+                            <path
+                                d="M105.1816,149.2789l-1.1035-5.753h-7.28l-1.1342,5.753H89.0117l7.311-30.8223H104.4l7.4028,30.8223Zm-2.36-12.5557-.9654-5.0391q-.3376-1.6794-.82-4.3462t-.6357-3.8212q-.1384,1.0707-.5444,3.5273t-1.8008,9.6792Z"
+                                fill="#fff"
+                            />
+                            <path
+                                d="M124.078,124.9444a3.7157,3.7157,0,0,0-3.3721,2.4253,15.1828,15.1828,0,0,0-1.2109,6.687q0,8.8608,4.92,8.86a7.5834,7.5834,0,0,0,2.8814-.5668,24.2349,24.2349,0,0,0,2.8052-1.3648v7.0127a11.9977,11.9977,0,0,1-6.3457,1.7007,8.802,8.802,0,0,1-7.7784-4.0313q-2.7056-4.0312-2.705-11.6528a24.517,24.517,0,0,1,1.31-8.3774,12.1394,12.1394,0,0,1,3.77-5.5538,9.064,9.064,0,0,1,5.7862-1.9418,12.5048,12.5048,0,0,1,6.9433,2.1626l-1.8545,6.53a18.081,18.081,0,0,0-2.4834-1.3437A6.552,6.552,0,0,0,124.078,124.9444Z"
+                                fill="#fff"
+                            />
+                            <path
+                                d="M144.23,149.2789h-6.0542V125.3643h-5.4717v-6.7817H149.686v6.7817H144.23Z"
+                                fill="#fff"
+                            />
+                            <path
+                                d="M124.8691,20.4233a14.5421,14.5421,0,0,1-2.6914,8.2994,26.1432,26.1432,0,0,1-6.707,6.76Q94.8048,49.8281,89.75,53.3452q-.5508.3854-2.3359,1.6763Q85.627,56.3142,84.4453,57.11q-1.1835.7968-2.8574,1.7861a16.7,16.7,0,0,1-3.16,1.4839,8.7366,8.7366,0,0,1-2.7485.4946h-.11a8.7244,8.7244,0,0,1-2.748-.4946,16.6349,16.6349,0,0,1-3.1607-1.4839q-1.6771-.99-2.8579-1.7861T63.835,55.0215q-1.7871-1.2906-2.336-1.6763-5.0016-3.5163-14.4-10.03T35.832,35.4829a27.274,27.274,0,0,1-6.4306-6.3481q-3.0235-4.04-3.023-7.5025a11.0945,11.0945,0,0,1,2.2808-7.145,7.8491,7.8491,0,0,1,6.5132-2.8579h80.9038a8.8647,8.8647,0,0,1,8.7929,8.7939Zm0,16.1587v43.64a8.8173,8.8173,0,0,1-8.7929,8.7939H35.1724a8.819,8.819,0,0,1-8.794-8.7939V36.582A29.1,29.1,0,0,0,31.93,41.3638q19.8955,13.52,27.3159,18.9619,3.1326,2.3079,5.084,3.6a31.2451,31.2451,0,0,0,5.1938,2.6382A15.8269,15.8269,0,0,0,75.5693,67.91h.11a15.83,15.83,0,0,0,6.0454-1.3467,31.2791,31.2791,0,0,0,5.1934-2.6382q1.9512-1.2906,5.084-3.6,9.3456-6.76,27.371-18.9619A30.23,30.23,0,0,0,124.8691,36.582Z"
+                                fill="#fff"
+                            />
+                        </svg>
+                    </a>
+                </div>
+                <div class="nav west">
+                    <a
+                        href="#about"
+                        class="navlink"
+                        data-template="about"
+                        data-rotate="-180"
+                        data-rotatedir="Y"
+                    >
+                        <svg
+                            class="nav-arrow"
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 331.0713 195.78"
+                        >
+                            <title>nav-arrow[new]</title>
+                            <path
+                                class="arrow"
+                                d="M234.59,262.625a6.195,6.195,0,0,0,3.83-1.6l90.91-90.85a6.0448,6.0448,0,0,0-.02-8.51l-90.88-90.87a6.2342,6.2342,0,0,0-3.84-1.59h-15.5c-2.08,0-2.57,1.18-1.1,2.65l89.81,89.81a6.0265,6.0265,0,0,1,.02,8.51l-89.85,89.78c-1.45,1.47-.96,2.67,1.12,2.67Z"
+                                transform="translate(0 -67.645)"
+                                fill="#fff"
+                                fill-rule="evenodd"
+                            />
+                            <path
+                                class="box"
+                                d="M0,78.895v173.28a11.2541,11.2541,0,0,0,11.25,11.25H171.03a20.8335,20.8335,0,0,0,12.8-5.3l88.82-89.55a3.7784,3.7784,0,0,0-.01-5.32l-90.31-90.3a20.7874,20.7874,0,0,0-12.8-5.31H11.25A11.2541,11.2541,0,0,0,0,78.895Zm23.25,171.4a9.7476,9.7476,0,0,1-9.75-9.74V90.515a9.7476,9.7476,0,0,1,9.75-9.74H164.14a18.0706,18.0706,0,0,1,11.1,4.59l77.89,77.84a3.7693,3.7693,0,0,1,.02,5.32l-76.61,77.18a18.0133,18.0133,0,0,1-11.1,4.59Z"
+                                transform="translate(0 -67.645)"
+                                fill="#fff"
+                                fill-rule="evenodd"
+                            />
+                        </svg>
+                        <svg
+                            class="nav-icon"
+                            id="nav-about"
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 137.9 150.61"
+                        >
+                            <title>nav-about[new]</title>
+                            <path
+                                d="M20.375,124.7l3.23,12.41h-6.47Zm6.64,25.16h7.48l-10.91-34.5h-6.4l-10.83,34.5h7.39l1.87-6.75h9.54Z"
+                                transform="translate(-6.355)"
+                                fill="#fff"
+                                fill-rule="evenodd"
+                            />
+                            <path
+                                d="M44.615,120.61h3.72a3.98,3.98,0,0,1,3.09,1.06,5.1906,5.1906,0,0,1,.95,3.51q0,4.425-4.11,4.43h-3.65Zm4.93,14.25q3.375.135,3.38,5.04a5.4207,5.4207,0,0,1-.98,3.48,3.4452,3.4452,0,0,1-2.85,1.23h-4.48v-9.75Zm-.45,15c3.51,0,6.18-.86,8.03-2.57s2.78-4.25,2.78-7.63a9.1326,9.1326,0,0,0-1.27-4.97,6.1416,6.1416,0,0,0-3.58-2.68,6.776,6.776,0,0,0,3.17-2.75,8.39,8.39,0,0,0,1.17-4.51c0-3.07-.95-5.41-2.82-7-1.88-1.6-4.63-2.39-8.24-2.39H37.625v34.5Z"
+                                transform="translate(-6.355)"
+                                fill="#fff"
+                                fill-rule="evenodd"
+                            />
+                            <path
+                                d="M82.085,136.15c-.02,3.15-.46,5.47-1.35,6.97a4.4114,4.4114,0,0,1-4.07,2.24,4.521,4.521,0,0,1-4.19-2.3q-1.365-2.28-1.36-7.14v-6.57c.03-3.19.5-5.57,1.39-7.14a4.7552,4.7552,0,0,1,8.25.08q1.335,2.445,1.33,7.43Zm7.04-6.38c-.04-4.79-1.16-8.52-3.39-11.18a11.2881,11.2881,0,0,0-9.12-3.99,11.2392,11.2392,0,0,0-9.19,4.06q-3.3,4.065-3.3,11.28v5.98q.03,6.975,3.37,10.83a11.47,11.47,0,0,0,9.17,3.86,11.3328,11.3328,0,0,0,9.15-3.89q3.315-3.9,3.31-10.96Z"
+                                transform="translate(-6.355)"
+                                fill="#fff"
+                                fill-rule="evenodd"
+                            />
+                            <path
+                                d="M109.555,115.36v24.51a7.59,7.59,0,0,1-.95,4.21c-.62.86-1.77,1.28-3.44,1.28-1.66,0-2.81-.42-3.44-1.29a7.4056,7.4056,0,0,1-.95-4.31v-24.4h-7.06v23.9c0,3.68.97,6.5,2.94,8.44,1.96,1.95,4.8,2.91,8.51,2.91,3.66,0,6.46-.95,8.41-2.87,1.94-1.92,2.94-4.69,2.97-8.31V115.36Z"
+                                transform="translate(-6.355)"
+                                fill="#fff"
+                                fill-rule="evenodd"
+                            />
+                            <polygon
+                                points="137.9 115.36 113.88 115.36 113.88 120.61 122.31 120.61 122.31 149.86 129.33 149.86 129.33 120.61 137.9 120.61 137.9 115.36"
+                                fill="#fff"
+                                fill-rule="evenodd"
+                            />
+                            <path
+                                d="M75.435,0a24.041,24.041,0,0,0-17.62,7.3,24.0023,24.0023,0,0,0-7.3,17.62,24.0023,24.0023,0,0,0,7.3,17.62,24.9268,24.9268,0,0,0,35.23,0,24.0116,24.0116,0,0,0,7.31-17.62A24.0116,24.0116,0,0,0,93.045,7.3,24.0347,24.0347,0,0,0,75.435,0Zm45.45,76.14a66.9206,66.9206,0,0,0-.91-7.07,56.65,56.65,0,0,0-1.73-7.04,33.3476,33.3476,0,0,0-2.79-6.33,23.0594,23.0594,0,0,0-4.02-5.25,16.7934,16.7934,0,0,0-5.54-3.47,19.3786,19.3786,0,0,0-7.23-1.3,8.0079,8.0079,0,0,0-2.73,1.39c-1.43.94-3.04,1.97-4.83,3.12a30.96,30.96,0,0,1-7.01,3.11,27.6718,27.6718,0,0,1-17.32,0,30.1714,30.1714,0,0,1-7.01-3.11c-1.8-1.15-3.4-2.18-4.83-3.12a8.19,8.19,0,0,0-2.73-1.39,19.3415,19.3415,0,0,0-7.23,1.3,16.84,16.84,0,0,0-5.55,3.47,22.8092,22.8092,0,0,0-4.03,5.25,33.3476,33.3476,0,0,0-2.79,6.33,54.9925,54.9925,0,0,0-1.71,7.04,64.3978,64.3978,0,0,0-.91,7.07c-.16,2.18-.23,4.42-.23,6.71,0,5.2,1.57,9.29,4.74,12.3q4.725,4.5,12.59,4.51h56.7q7.845,0,12.59-4.51c3.15-3.01,4.73-7.1,4.73-12.3C121.105,80.56,121.025,78.32,120.885,76.14Z"
+                                transform="translate(-6.355)"
+                                fill="#fff"
+                                fill-rule="evenodd"
+                            />
+                        </svg>
+                    </a>
+                </div>
+                <div class="main">
+                    <h1 class="big-heading">RESUME</h1>
+                    <div class="resume-container">
+                        <div class="title">Bryan Elliott</div>
+                        <address>22436 Abordo Dr, Santa Clarita, CA 91350</address>
+                        <a href="mailto:bryan@elliottprogrammer.com">bryan@elliottprogrammer.com</a>
+                        <hr />
+                        <div class="proficencies">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="nav east">
-                <a href="#resume" class="navlink" data-template="resume" data-rotate="+180" data-rotatedir="Y">
-                    <svg class="nav-arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 331.0713 195.78">
-                        <title>nav-arrow[new]</title><path class="arrow" d="M234.59,262.625a6.195,6.195,0,0,0,3.83-1.6l90.91-90.85a6.0448,6.0448,0,0,0-.02-8.51l-90.88-90.87a6.2342,6.2342,0,0,0-3.84-1.59h-15.5c-2.08,0-2.57,1.18-1.1,2.65l89.81,89.81a6.0265,6.0265,0,0,1,.02,8.51l-89.85,89.78c-1.45,1.47-.96,2.67,1.12,2.67Z" transform="translate(0 -67.645)" fill="#fff" fill-rule="evenodd"/><path class="box" d="M0,78.895v173.28a11.2541,11.2541,0,0,0,11.25,11.25H171.03a20.8335,20.8335,0,0,0,12.8-5.3l88.82-89.55a3.7784,3.7784,0,0,0-.01-5.32l-90.31-90.3a20.7874,20.7874,0,0,0-12.8-5.31H11.25A11.2541,11.2541,0,0,0,0,78.895Zm23.25,171.4a9.7476,9.7476,0,0,1-9.75-9.74V90.515a9.7476,9.7476,0,0,1,9.75-9.74H164.14a18.0706,18.0706,0,0,1,11.1,4.59l77.89,77.84a3.7693,3.7693,0,0,1,.02,5.32l-76.61,77.18a18.0133,18.0133,0,0,1-11.1,4.59Z" transform="translate(0 -67.645)" fill="#fff" fill-rule="evenodd"/>
-                    </svg>
-                    <svg class="nav-icon" id="nav-resume" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150.1494 148.896">
-                        <title>nav-resume[new]</title><path d="M116.3771,42.3244V93.6637a6.1352,6.1352,0,0,1-6.1612,6.1607H40.3946a6.1352,6.1352,0,0,1-6.1606-6.1607V7.4137A5.9409,5.9409,0,0,1,36.0309,3.05a5.9423,5.9423,0,0,1,4.3637-1.7968H75.3053V36.1637a6.1352,6.1352,0,0,0,6.1606,6.1607ZM99.9484,64.9137V60.8063a1.9767,1.9767,0,0,0-2.0538-2.0532H52.7159a1.9766,1.9766,0,0,0-2.0532,2.0532v4.1074a1.9766,1.9766,0,0,0,2.0532,2.0532H97.8946a1.9767,1.9767,0,0,0,2.0538-2.0532Zm0,16.4282V77.235a1.9775,1.9775,0,0,0-2.0538-2.0537H52.7159a1.9774,1.9774,0,0,0-2.0532,2.0537v4.1069a1.9774,1.9774,0,0,0,2.0532,2.0537H97.8946a1.9775,1.9775,0,0,0,2.0538-2.0537ZM116.1842,34.11H83.52V1.4454a15.5959,15.5959,0,0,1,8.4712,4.1714l20.022,20.022A15.5966,15.5966,0,0,1,116.1842,34.11Z" transform="translate(-0.7496 -1.2531)" fill="#fff"/><path d="M.75,117.0275a47.635,47.635,0,0,1,8.4561-.6856c4.1655,0,7.0815.7349,9.081,2.5967a9.0726,9.0726,0,0,1,2.583,6.9082,8.7352,8.7352,0,0,1-4.9575,8.1333v.147c1.958.9311,3.041,3.1357,3.7491,6.1738.875,3.7237,1.75,8.0352,2.2915,9.3091H15.4542a46.824,46.824,0,0,1-1.958-7.6924c-.7495-4.1157-1.9575-5.2427-4.54-5.2915H7.04V149.61H.75Zm6.29,14.209H9.5392c3.1655,0,5.04-1.8619,5.04-4.7525,0-3.0381-1.7495-4.5566-4.6655-4.6059a13.5157,13.5157,0,0,0-2.874.2451Z" transform="translate(-0.7496 -1.2531)" fill="#fff"/><path d="M41.985,135.6461H31.6539v7.8394H43.193V149.61H25.2809V116.5866H42.61v6.1245H31.6539V129.57H41.985Z" transform="translate(-0.7496 -1.2531)" fill="#fff"/><path d="M47.5631,141.9176a14.3165,14.3165,0,0,0,7.04,2.0576c2.9161,0,4.4571-1.4209,4.4571-3.5766,0-2.0576-1.333-3.2334-4.7071-4.6543-4.6655-1.9112-7.7065-4.9488-7.7065-9.7505,0-5.6343,3.999-9.9458,10.6226-9.9458a15.0342,15.0342,0,0,1,7.165,1.6655L63.0177,123.74a11.7588,11.7588,0,0,0-5.8735-1.5674c-2.75,0-4.0826,1.47-4.0826,3.1846,0,2.1069,1.583,3.0376,5.2071,4.6543,4.9575,2.1562,7.29,5.1938,7.29,9.8486,0,5.5361-3.624,10.24-11.3306,10.24a16.1178,16.1178,0,0,1-7.9565-2.0087Z" transform="translate(-0.7496 -1.2531)" fill="#fff"/><path d="M76.0109,116.5866v19.0107c0,5.6836,1.833,8.5742,5.082,8.5742,3.3325,0,5.1655-2.7436,5.1655-8.5742V116.5866H92.59v18.5205c0,10.1914-4.3736,15.042-11.7051,15.042-7.0816,0-11.2476-4.606-11.2476-15.14V116.5866Z" transform="translate(-0.7496 -1.2531)" fill="#fff"/><path d="M121.6617,136.9689c-.125-3.9688-.25-8.77-.25-13.5718h-.125c-.875,4.2139-2.041,8.9175-3.1245,12.7881l-3.4155,12.8857H109.79l-2.9995-12.788c-.9165-3.8707-1.8746-8.5743-2.5411-12.8858h-.083c-.167,4.4585-.292,9.5542-.5,13.67l-.5,12.543H97.2926l1.791-33.0234H107.54l2.749,11.0244c.875,3.8213,1.75,7.937,2.3745,11.8076h.125c.7915-3.8213,1.7495-8.1821,2.666-11.8569l2.9995-10.9751h8.29l1.541,33.0234h-6.2066Z" transform="translate(-0.7496 -1.2531)" fill="#fff"/><path d="M149.691,135.6461H139.36v7.8394h11.539V149.61H132.9869V116.5866H150.316v6.1245H139.36V129.57h10.331Z" transform="translate(-0.7496 -1.2531)" fill="#fff"/>
-                    </svg>
-                </a>
-            </div>
-            <div class="nav south">
-                <a href="#contact" class="navlink" data-template="contact" data-rotate="-180" data-rotatedir="X">
-                    <svg class="nav-arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 331.0713 195.78">
-                        <title>nav-arrow[new]</title><path class="arrow" d="M234.59,262.625a6.195,6.195,0,0,0,3.83-1.6l90.91-90.85a6.0448,6.0448,0,0,0-.02-8.51l-90.88-90.87a6.2342,6.2342,0,0,0-3.84-1.59h-15.5c-2.08,0-2.57,1.18-1.1,2.65l89.81,89.81a6.0265,6.0265,0,0,1,.02,8.51l-89.85,89.78c-1.45,1.47-.96,2.67,1.12,2.67Z" transform="translate(0 -67.645)" fill="#fff" fill-rule="evenodd"/><path class="box" d="M0,78.895v173.28a11.2541,11.2541,0,0,0,11.25,11.25H171.03a20.8335,20.8335,0,0,0,12.8-5.3l88.82-89.55a3.7784,3.7784,0,0,0-.01-5.32l-90.31-90.3a20.7874,20.7874,0,0,0-12.8-5.31H11.25A11.2541,11.2541,0,0,0,0,78.895Zm23.25,171.4a9.7476,9.7476,0,0,1-9.75-9.74V90.515a9.7476,9.7476,0,0,1,9.75-9.74H164.14a18.0706,18.0706,0,0,1,11.1,4.59l77.89,77.84a3.7693,3.7693,0,0,1,.02,5.32l-76.61,77.18a18.0133,18.0133,0,0,1-11.1,4.59Z" transform="translate(0 -67.645)" fill="#fff" fill-rule="evenodd"/>
-                    </svg>
-                    <svg class="nav-icon" id="nav-contact" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150.61 150.61">
-                    <title>nav-contact[new]</title><path d="M11.8056,124.9444a3.7155,3.7155,0,0,0-3.372,2.4253,15.1829,15.1829,0,0,0-1.211,6.687q0,8.8608,4.92,8.86a7.5825,7.5825,0,0,0,2.8813-.5668,24.2349,24.2349,0,0,0,2.8052-1.3648v7.0127a11.9968,11.9968,0,0,1-6.3457,1.7007,8.8018,8.8018,0,0,1-7.7783-4.0313Q.9994,141.6362,1,134.0147a24.5174,24.5174,0,0,1,1.31-8.3774,12.14,12.14,0,0,1,3.77-5.5538,9.064,9.064,0,0,1,5.7862-1.9418,12.5048,12.5048,0,0,1,6.9433,2.1626l-1.8545,6.53a18.0906,18.0906,0,0,0-2.4833-1.3437A6.5526,6.5526,0,0,0,11.8056,124.9444Z" fill="#fff"/><path d="M43.039,133.8887q0,7.7476-2.7739,11.7788a9.2357,9.2357,0,0,1-8.1235,4.0313,9.2416,9.2416,0,0,1-8.085-4.0523q-2.8132-4.0516-2.8125-11.8,0-7.6635,2.7969-11.7055A9.27,9.27,0,0,1,32.1723,118.1a9.2123,9.2123,0,0,1,8.108,4.01Q43.0392,126.1207,43.039,133.8887Zm-15.4189,0q0,8.9027,4.5215,8.9024a3.6173,3.6173,0,0,0,3.41-2.1626q1.1112-2.1621,1.1114-6.74a15.5549,15.5549,0,0,0-1.1265-6.7925,3.6022,3.6022,0,0,0-3.3643-2.1938Q27.62,124.9024,27.62,133.8887Z" fill="#fff"/><path d="M68.2954,149.2789h-7.94l-8.1846-21.626h-.1377q.2907,5.1021.291,7.79v13.8365H46.96V118.5826h7.9087l8.1538,21.332h.0923q-.2152-4.64-.2148-7.4536V118.5826h5.3955Z" fill="#fff"/><path d="M82.8989,149.2789H76.8447V125.3643H71.373v-6.7817H88.3555v6.7817H82.8989Z" fill="#fff"/><path d="M105.1816,149.2789l-1.1035-5.753h-7.28l-1.1342,5.753H89.0117l7.311-30.8223H104.4l7.4028,30.8223Zm-2.36-12.5557-.9654-5.0391q-.3376-1.6794-.82-4.3462t-.6357-3.8212q-.1384,1.0707-.5444,3.5273t-1.8008,9.6792Z" fill="#fff"/><path d="M124.078,124.9444a3.7157,3.7157,0,0,0-3.3721,2.4253,15.1828,15.1828,0,0,0-1.2109,6.687q0,8.8608,4.92,8.86a7.5834,7.5834,0,0,0,2.8814-.5668,24.2349,24.2349,0,0,0,2.8052-1.3648v7.0127a11.9977,11.9977,0,0,1-6.3457,1.7007,8.802,8.802,0,0,1-7.7784-4.0313q-2.7056-4.0312-2.705-11.6528a24.517,24.517,0,0,1,1.31-8.3774,12.1394,12.1394,0,0,1,3.77-5.5538,9.064,9.064,0,0,1,5.7862-1.9418,12.5048,12.5048,0,0,1,6.9433,2.1626l-1.8545,6.53a18.081,18.081,0,0,0-2.4834-1.3437A6.552,6.552,0,0,0,124.078,124.9444Z" fill="#fff"/><path d="M144.23,149.2789h-6.0542V125.3643h-5.4717v-6.7817H149.686v6.7817H144.23Z" fill="#fff"/><path d="M124.8691,20.4233a14.5421,14.5421,0,0,1-2.6914,8.2994,26.1432,26.1432,0,0,1-6.707,6.76Q94.8048,49.8281,89.75,53.3452q-.5508.3854-2.3359,1.6763Q85.627,56.3142,84.4453,57.11q-1.1835.7968-2.8574,1.7861a16.7,16.7,0,0,1-3.16,1.4839,8.7366,8.7366,0,0,1-2.7485.4946h-.11a8.7244,8.7244,0,0,1-2.748-.4946,16.6349,16.6349,0,0,1-3.1607-1.4839q-1.6771-.99-2.8579-1.7861T63.835,55.0215q-1.7871-1.2906-2.336-1.6763-5.0016-3.5163-14.4-10.03T35.832,35.4829a27.274,27.274,0,0,1-6.4306-6.3481q-3.0235-4.04-3.023-7.5025a11.0945,11.0945,0,0,1,2.2808-7.145,7.8491,7.8491,0,0,1,6.5132-2.8579h80.9038a8.8647,8.8647,0,0,1,8.7929,8.7939Zm0,16.1587v43.64a8.8173,8.8173,0,0,1-8.7929,8.7939H35.1724a8.819,8.819,0,0,1-8.794-8.7939V36.582A29.1,29.1,0,0,0,31.93,41.3638q19.8955,13.52,27.3159,18.9619,3.1326,2.3079,5.084,3.6a31.2451,31.2451,0,0,0,5.1938,2.6382A15.8269,15.8269,0,0,0,75.5693,67.91h.11a15.83,15.83,0,0,0,6.0454-1.3467,31.2791,31.2791,0,0,0,5.1934-2.6382q1.9512-1.2906,5.084-3.6,9.3456-6.76,27.371-18.9619A30.23,30.23,0,0,0,124.8691,36.582Z" fill="#fff"/>
-                    </svg>
-                </a>
-            </div>
-            <div class="nav west">
-                <a href="#home" class="navlink" data-template="home" data-rotate="-180" data-rotatedir="Y">
-                    <svg class="nav-arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 331.0713 195.78">
-                        <title>nav-arrow[new]</title><path class="arrow" d="M234.59,262.625a6.195,6.195,0,0,0,3.83-1.6l90.91-90.85a6.0448,6.0448,0,0,0-.02-8.51l-90.88-90.87a6.2342,6.2342,0,0,0-3.84-1.59h-15.5c-2.08,0-2.57,1.18-1.1,2.65l89.81,89.81a6.0265,6.0265,0,0,1,.02,8.51l-89.85,89.78c-1.45,1.47-.96,2.67,1.12,2.67Z" transform="translate(0 -67.645)" fill="#fff" fill-rule="evenodd"/><path class="box" d="M0,78.895v173.28a11.2541,11.2541,0,0,0,11.25,11.25H171.03a20.8335,20.8335,0,0,0,12.8-5.3l88.82-89.55a3.7784,3.7784,0,0,0-.01-5.32l-90.31-90.3a20.7874,20.7874,0,0,0-12.8-5.31H11.25A11.2541,11.2541,0,0,0,0,78.895Zm23.25,171.4a9.7476,9.7476,0,0,1-9.75-9.74V90.515a9.7476,9.7476,0,0,1,9.75-9.74H164.14a18.0706,18.0706,0,0,1,11.1,4.59l77.89,77.84a3.7693,3.7693,0,0,1,.02,5.32l-76.61,77.18a18.0133,18.0133,0,0,1-11.1,4.59Z" transform="translate(0 -67.645)" fill="#fff" fill-rule="evenodd"/>
-                    </svg>
-                    <svg class="nav-icon" id="nav-home" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150.61 150.61">
-                    <title>nav-home[new]</title><path d="M47.587,149.881H41.2193V136.7853H33.857V149.881H27.4888V117.757H33.857v11.9092h7.3623V117.757H47.587Z" fill="#fff"/><path d="M74.4674,133.775q0,8.1079-2.9034,12.3267a9.664,9.664,0,0,1-8.5009,4.2187,9.6725,9.6725,0,0,1-8.4615-4.2407q-2.9436-4.2407-2.9433-12.3486,0-8.02,2.9277-12.2495a9.7007,9.7007,0,0,1,8.5088-4.23,9.64,9.64,0,0,1,8.4853,4.1968Q74.4674,125.6451,74.4674,133.775Zm-16.1363,0q0,9.3165,4.732,9.3164a3.786,3.786,0,0,0,3.5688-2.2631q1.1624-2.2632,1.1631-7.0533,0-4.812-1.1792-7.1079a3.77,3.77,0,0,0-3.521-2.2964Q58.3311,124.3707,58.3311,133.775Z" fill="#fff"/><path d="M88.7882,149.881l-4.7959-23.1372h-.1446q.3369,5.9106.3369,9.1846V149.881H78.57V117.757h8.437L91.9,140.5646h.1279l4.7964-22.8076h8.4531v32.124H99.4547V135.7965q0-1.0986.0239-2.4389t.2168-6.57h-.1446L94.8189,149.881Z" fill="#fff"/><path d="M124.1212,149.881H110.1983V117.757h13.9229v6.9653h-7.587v5.0537H123.56v6.9653h-7.0254v6.0645h7.587Z" fill="#fff"/><path d="M131.9849,55.6544l-4.3594,5.7813a2.33,2.33,0,0,1-1.4765.8594h-.211a2.0241,2.0241,0,0,1-1.4765-.5469L75.8052,16.67,27.149,61.7482a2.4207,2.4207,0,0,1-1.6875.5469,2.3233,2.3233,0,0,1-1.4766-.8594l-4.3594-5.7813a2.7237,2.7237,0,0,1-.4922-1.8359,2.3537,2.3537,0,0,1,.7735-1.68L70.4615,5.3419a8.0449,8.0449,0,0,1,10.6875,0L98.3052,21.2794V6.0451a2.5854,2.5854,0,0,1,.6328-1.7969,2.0771,2.0771,0,0,1,1.6172-.7031h13.5a2.0791,2.0791,0,0,1,1.6172.7031,2.5849,2.5849,0,0,1,.6328,1.7969V37.92l15.3985,14.2187a2.3657,2.3657,0,0,1,.7734,1.68A2.7389,2.7389,0,0,1,131.9849,55.6544Zm-15.68,5.3907v37.5a5.083,5.083,0,0,1-1.3359,3.5156,4.124,4.124,0,0,1-3.1641,1.4844h-27v-30h-18v30h-27a4.1194,4.1194,0,0,1-3.164-1.4844,5.0758,5.0758,0,0,1-1.336-3.5156v-37.5a1.1251,1.1251,0,0,1,.0352-.2344,1.2054,1.2054,0,0,0,.0351-.2344l40.43-37.0312,40.43,37.0312A1.22,1.22,0,0,1,116.3052,61.0451Z" fill="#fff"/>
-                    </svg>
-                </a>
+
+            <div id="contact" class="page__layout">
+                <div class="nav north"></div>
+                <div class="nav east">
+                    <a
+                        href="#resume"
+                        class="navlink"
+                        data-template="resume"
+                        data-rotate="+180"
+                        data-rotatedir="Y"
+                    >
+                        <svg
+                            class="nav-arrow"
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 331.0713 195.78"
+                        >
+                            <title>nav-arrow[new]</title>
+                            <path
+                                class="arrow"
+                                d="M234.59,262.625a6.195,6.195,0,0,0,3.83-1.6l90.91-90.85a6.0448,6.0448,0,0,0-.02-8.51l-90.88-90.87a6.2342,6.2342,0,0,0-3.84-1.59h-15.5c-2.08,0-2.57,1.18-1.1,2.65l89.81,89.81a6.0265,6.0265,0,0,1,.02,8.51l-89.85,89.78c-1.45,1.47-.96,2.67,1.12,2.67Z"
+                                transform="translate(0 -67.645)"
+                                fill="#fff"
+                                fill-rule="evenodd"
+                            />
+                            <path
+                                class="box"
+                                d="M0,78.895v173.28a11.2541,11.2541,0,0,0,11.25,11.25H171.03a20.8335,20.8335,0,0,0,12.8-5.3l88.82-89.55a3.7784,3.7784,0,0,0-.01-5.32l-90.31-90.3a20.7874,20.7874,0,0,0-12.8-5.31H11.25A11.2541,11.2541,0,0,0,0,78.895Zm23.25,171.4a9.7476,9.7476,0,0,1-9.75-9.74V90.515a9.7476,9.7476,0,0,1,9.75-9.74H164.14a18.0706,18.0706,0,0,1,11.1,4.59l77.89,77.84a3.7693,3.7693,0,0,1,.02,5.32l-76.61,77.18a18.0133,18.0133,0,0,1-11.1,4.59Z"
+                                transform="translate(0 -67.645)"
+                                fill="#fff"
+                                fill-rule="evenodd"
+                            />
+                        </svg>
+                        <svg
+                            class="nav-icon"
+                            id="nav-resume"
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 150.1494 148.896"
+                        >
+                            <title>nav-resume[new]</title>
+                            <path
+                                d="M116.3771,42.3244V93.6637a6.1352,6.1352,0,0,1-6.1612,6.1607H40.3946a6.1352,6.1352,0,0,1-6.1606-6.1607V7.4137A5.9409,5.9409,0,0,1,36.0309,3.05a5.9423,5.9423,0,0,1,4.3637-1.7968H75.3053V36.1637a6.1352,6.1352,0,0,0,6.1606,6.1607ZM99.9484,64.9137V60.8063a1.9767,1.9767,0,0,0-2.0538-2.0532H52.7159a1.9766,1.9766,0,0,0-2.0532,2.0532v4.1074a1.9766,1.9766,0,0,0,2.0532,2.0532H97.8946a1.9767,1.9767,0,0,0,2.0538-2.0532Zm0,16.4282V77.235a1.9775,1.9775,0,0,0-2.0538-2.0537H52.7159a1.9774,1.9774,0,0,0-2.0532,2.0537v4.1069a1.9774,1.9774,0,0,0,2.0532,2.0537H97.8946a1.9775,1.9775,0,0,0,2.0538-2.0537ZM116.1842,34.11H83.52V1.4454a15.5959,15.5959,0,0,1,8.4712,4.1714l20.022,20.022A15.5966,15.5966,0,0,1,116.1842,34.11Z"
+                                transform="translate(-0.7496 -1.2531)"
+                                fill="#fff"
+                            />
+                            <path
+                                d="M.75,117.0275a47.635,47.635,0,0,1,8.4561-.6856c4.1655,0,7.0815.7349,9.081,2.5967a9.0726,9.0726,0,0,1,2.583,6.9082,8.7352,8.7352,0,0,1-4.9575,8.1333v.147c1.958.9311,3.041,3.1357,3.7491,6.1738.875,3.7237,1.75,8.0352,2.2915,9.3091H15.4542a46.824,46.824,0,0,1-1.958-7.6924c-.7495-4.1157-1.9575-5.2427-4.54-5.2915H7.04V149.61H.75Zm6.29,14.209H9.5392c3.1655,0,5.04-1.8619,5.04-4.7525,0-3.0381-1.7495-4.5566-4.6655-4.6059a13.5157,13.5157,0,0,0-2.874.2451Z"
+                                transform="translate(-0.7496 -1.2531)"
+                                fill="#fff"
+                            />
+                            <path
+                                d="M41.985,135.6461H31.6539v7.8394H43.193V149.61H25.2809V116.5866H42.61v6.1245H31.6539V129.57H41.985Z"
+                                transform="translate(-0.7496 -1.2531)"
+                                fill="#fff"
+                            />
+                            <path
+                                d="M47.5631,141.9176a14.3165,14.3165,0,0,0,7.04,2.0576c2.9161,0,4.4571-1.4209,4.4571-3.5766,0-2.0576-1.333-3.2334-4.7071-4.6543-4.6655-1.9112-7.7065-4.9488-7.7065-9.7505,0-5.6343,3.999-9.9458,10.6226-9.9458a15.0342,15.0342,0,0,1,7.165,1.6655L63.0177,123.74a11.7588,11.7588,0,0,0-5.8735-1.5674c-2.75,0-4.0826,1.47-4.0826,3.1846,0,2.1069,1.583,3.0376,5.2071,4.6543,4.9575,2.1562,7.29,5.1938,7.29,9.8486,0,5.5361-3.624,10.24-11.3306,10.24a16.1178,16.1178,0,0,1-7.9565-2.0087Z"
+                                transform="translate(-0.7496 -1.2531)"
+                                fill="#fff"
+                            />
+                            <path
+                                d="M76.0109,116.5866v19.0107c0,5.6836,1.833,8.5742,5.082,8.5742,3.3325,0,5.1655-2.7436,5.1655-8.5742V116.5866H92.59v18.5205c0,10.1914-4.3736,15.042-11.7051,15.042-7.0816,0-11.2476-4.606-11.2476-15.14V116.5866Z"
+                                transform="translate(-0.7496 -1.2531)"
+                                fill="#fff"
+                            />
+                            <path
+                                d="M121.6617,136.9689c-.125-3.9688-.25-8.77-.25-13.5718h-.125c-.875,4.2139-2.041,8.9175-3.1245,12.7881l-3.4155,12.8857H109.79l-2.9995-12.788c-.9165-3.8707-1.8746-8.5743-2.5411-12.8858h-.083c-.167,4.4585-.292,9.5542-.5,13.67l-.5,12.543H97.2926l1.791-33.0234H107.54l2.749,11.0244c.875,3.8213,1.75,7.937,2.3745,11.8076h.125c.7915-3.8213,1.7495-8.1821,2.666-11.8569l2.9995-10.9751h8.29l1.541,33.0234h-6.2066Z"
+                                transform="translate(-0.7496 -1.2531)"
+                                fill="#fff"
+                            />
+                            <path
+                                d="M149.691,135.6461H139.36v7.8394h11.539V149.61H132.9869V116.5866H150.316v6.1245H139.36V129.57h10.331Z"
+                                transform="translate(-0.7496 -1.2531)"
+                                fill="#fff"
+                            />
+                        </svg>
+                    </a>
+                </div>
+                <div class="nav south">
+                    <a
+                        href="#about"
+                        class="navlink"
+                        data-template="about"
+                        data-rotate="-180"
+                        data-rotatedir="X"
+                    >
+                        <svg
+                            class="nav-arrow"
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 331.0713 195.78"
+                        >
+                            <title>nav-arrow[new]</title>
+                            <path
+                                class="arrow"
+                                d="M234.59,262.625a6.195,6.195,0,0,0,3.83-1.6l90.91-90.85a6.0448,6.0448,0,0,0-.02-8.51l-90.88-90.87a6.2342,6.2342,0,0,0-3.84-1.59h-15.5c-2.08,0-2.57,1.18-1.1,2.65l89.81,89.81a6.0265,6.0265,0,0,1,.02,8.51l-89.85,89.78c-1.45,1.47-.96,2.67,1.12,2.67Z"
+                                transform="translate(0 -67.645)"
+                                fill="#fff"
+                                fill-rule="evenodd"
+                            />
+                            <path
+                                class="box"
+                                d="M0,78.895v173.28a11.2541,11.2541,0,0,0,11.25,11.25H171.03a20.8335,20.8335,0,0,0,12.8-5.3l88.82-89.55a3.7784,3.7784,0,0,0-.01-5.32l-90.31-90.3a20.7874,20.7874,0,0,0-12.8-5.31H11.25A11.2541,11.2541,0,0,0,0,78.895Zm23.25,171.4a9.7476,9.7476,0,0,1-9.75-9.74V90.515a9.7476,9.7476,0,0,1,9.75-9.74H164.14a18.0706,18.0706,0,0,1,11.1,4.59l77.89,77.84a3.7693,3.7693,0,0,1,.02,5.32l-76.61,77.18a18.0133,18.0133,0,0,1-11.1,4.59Z"
+                                transform="translate(0 -67.645)"
+                                fill="#fff"
+                                fill-rule="evenodd"
+                            />
+                        </svg>
+                        <svg
+                            class="nav-icon"
+                            id="nav-about"
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 137.9 150.61"
+                        >
+                            <title>nav-about[new]</title>
+                            <path
+                                d="M20.375,124.7l3.23,12.41h-6.47Zm6.64,25.16h7.48l-10.91-34.5h-6.4l-10.83,34.5h7.39l1.87-6.75h9.54Z"
+                                transform="translate(-6.355)"
+                                fill="#fff"
+                                fill-rule="evenodd"
+                            />
+                            <path
+                                d="M44.615,120.61h3.72a3.98,3.98,0,0,1,3.09,1.06,5.1906,5.1906,0,0,1,.95,3.51q0,4.425-4.11,4.43h-3.65Zm4.93,14.25q3.375.135,3.38,5.04a5.4207,5.4207,0,0,1-.98,3.48,3.4452,3.4452,0,0,1-2.85,1.23h-4.48v-9.75Zm-.45,15c3.51,0,6.18-.86,8.03-2.57s2.78-4.25,2.78-7.63a9.1326,9.1326,0,0,0-1.27-4.97,6.1416,6.1416,0,0,0-3.58-2.68,6.776,6.776,0,0,0,3.17-2.75,8.39,8.39,0,0,0,1.17-4.51c0-3.07-.95-5.41-2.82-7-1.88-1.6-4.63-2.39-8.24-2.39H37.625v34.5Z"
+                                transform="translate(-6.355)"
+                                fill="#fff"
+                                fill-rule="evenodd"
+                            />
+                            <path
+                                d="M82.085,136.15c-.02,3.15-.46,5.47-1.35,6.97a4.4114,4.4114,0,0,1-4.07,2.24,4.521,4.521,0,0,1-4.19-2.3q-1.365-2.28-1.36-7.14v-6.57c.03-3.19.5-5.57,1.39-7.14a4.7552,4.7552,0,0,1,8.25.08q1.335,2.445,1.33,7.43Zm7.04-6.38c-.04-4.79-1.16-8.52-3.39-11.18a11.2881,11.2881,0,0,0-9.12-3.99,11.2392,11.2392,0,0,0-9.19,4.06q-3.3,4.065-3.3,11.28v5.98q.03,6.975,3.37,10.83a11.47,11.47,0,0,0,9.17,3.86,11.3328,11.3328,0,0,0,9.15-3.89q3.315-3.9,3.31-10.96Z"
+                                transform="translate(-6.355)"
+                                fill="#fff"
+                                fill-rule="evenodd"
+                            />
+                            <path
+                                d="M109.555,115.36v24.51a7.59,7.59,0,0,1-.95,4.21c-.62.86-1.77,1.28-3.44,1.28-1.66,0-2.81-.42-3.44-1.29a7.4056,7.4056,0,0,1-.95-4.31v-24.4h-7.06v23.9c0,3.68.97,6.5,2.94,8.44,1.96,1.95,4.8,2.91,8.51,2.91,3.66,0,6.46-.95,8.41-2.87,1.94-1.92,2.94-4.69,2.97-8.31V115.36Z"
+                                transform="translate(-6.355)"
+                                fill="#fff"
+                                fill-rule="evenodd"
+                            />
+                            <polygon
+                                points="137.9 115.36 113.88 115.36 113.88 120.61 122.31 120.61 122.31 149.86 129.33 149.86 129.33 120.61 137.9 120.61 137.9 115.36"
+                                fill="#fff"
+                                fill-rule="evenodd"
+                            />
+                            <path
+                                d="M75.435,0a24.041,24.041,0,0,0-17.62,7.3,24.0023,24.0023,0,0,0-7.3,17.62,24.0023,24.0023,0,0,0,7.3,17.62,24.9268,24.9268,0,0,0,35.23,0,24.0116,24.0116,0,0,0,7.31-17.62A24.0116,24.0116,0,0,0,93.045,7.3,24.0347,24.0347,0,0,0,75.435,0Zm45.45,76.14a66.9206,66.9206,0,0,0-.91-7.07,56.65,56.65,0,0,0-1.73-7.04,33.3476,33.3476,0,0,0-2.79-6.33,23.0594,23.0594,0,0,0-4.02-5.25,16.7934,16.7934,0,0,0-5.54-3.47,19.3786,19.3786,0,0,0-7.23-1.3,8.0079,8.0079,0,0,0-2.73,1.39c-1.43.94-3.04,1.97-4.83,3.12a30.96,30.96,0,0,1-7.01,3.11,27.6718,27.6718,0,0,1-17.32,0,30.1714,30.1714,0,0,1-7.01-3.11c-1.8-1.15-3.4-2.18-4.83-3.12a8.19,8.19,0,0,0-2.73-1.39,19.3415,19.3415,0,0,0-7.23,1.3,16.84,16.84,0,0,0-5.55,3.47,22.8092,22.8092,0,0,0-4.03,5.25,33.3476,33.3476,0,0,0-2.79,6.33,54.9925,54.9925,0,0,0-1.71,7.04,64.3978,64.3978,0,0,0-.91,7.07c-.16,2.18-.23,4.42-.23,6.71,0,5.2,1.57,9.29,4.74,12.3q4.725,4.5,12.59,4.51h56.7q7.845,0,12.59-4.51c3.15-3.01,4.73-7.1,4.73-12.3C121.105,80.56,121.025,78.32,120.885,76.14Z"
+                                transform="translate(-6.355)"
+                                fill="#fff"
+                                fill-rule="evenodd"
+                            />
+                        </svg>
+                    </a>
+                </div>
+                <div class="nav west">
+                    <a
+                        href="#home"
+                        class="navlink"
+                        data-template="home"
+                        data-rotate="-180"
+                        data-rotatedir="Y"
+                    >
+                        <svg
+                            class="nav-arrow"
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 331.0713 195.78"
+                        >
+                            <title>nav-arrow[new]</title>
+                            <path
+                                class="arrow"
+                                d="M234.59,262.625a6.195,6.195,0,0,0,3.83-1.6l90.91-90.85a6.0448,6.0448,0,0,0-.02-8.51l-90.88-90.87a6.2342,6.2342,0,0,0-3.84-1.59h-15.5c-2.08,0-2.57,1.18-1.1,2.65l89.81,89.81a6.0265,6.0265,0,0,1,.02,8.51l-89.85,89.78c-1.45,1.47-.96,2.67,1.12,2.67Z"
+                                transform="translate(0 -67.645)"
+                                fill="#fff"
+                                fill-rule="evenodd"
+                            />
+                            <path
+                                class="box"
+                                d="M0,78.895v173.28a11.2541,11.2541,0,0,0,11.25,11.25H171.03a20.8335,20.8335,0,0,0,12.8-5.3l88.82-89.55a3.7784,3.7784,0,0,0-.01-5.32l-90.31-90.3a20.7874,20.7874,0,0,0-12.8-5.31H11.25A11.2541,11.2541,0,0,0,0,78.895Zm23.25,171.4a9.7476,9.7476,0,0,1-9.75-9.74V90.515a9.7476,9.7476,0,0,1,9.75-9.74H164.14a18.0706,18.0706,0,0,1,11.1,4.59l77.89,77.84a3.7693,3.7693,0,0,1,.02,5.32l-76.61,77.18a18.0133,18.0133,0,0,1-11.1,4.59Z"
+                                transform="translate(0 -67.645)"
+                                fill="#fff"
+                                fill-rule="evenodd"
+                            />
+                        </svg>
+                        <svg
+                            class="nav-icon"
+                            id="nav-home"
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 150.61 150.61"
+                        >
+                            <title>nav-home[new]</title>
+                            <path
+                                d="M47.587,149.881H41.2193V136.7853H33.857V149.881H27.4888V117.757H33.857v11.9092h7.3623V117.757H47.587Z"
+                                fill="#fff"
+                            />
+                            <path
+                                d="M74.4674,133.775q0,8.1079-2.9034,12.3267a9.664,9.664,0,0,1-8.5009,4.2187,9.6725,9.6725,0,0,1-8.4615-4.2407q-2.9436-4.2407-2.9433-12.3486,0-8.02,2.9277-12.2495a9.7007,9.7007,0,0,1,8.5088-4.23,9.64,9.64,0,0,1,8.4853,4.1968Q74.4674,125.6451,74.4674,133.775Zm-16.1363,0q0,9.3165,4.732,9.3164a3.786,3.786,0,0,0,3.5688-2.2631q1.1624-2.2632,1.1631-7.0533,0-4.812-1.1792-7.1079a3.77,3.77,0,0,0-3.521-2.2964Q58.3311,124.3707,58.3311,133.775Z"
+                                fill="#fff"
+                            />
+                            <path
+                                d="M88.7882,149.881l-4.7959-23.1372h-.1446q.3369,5.9106.3369,9.1846V149.881H78.57V117.757h8.437L91.9,140.5646h.1279l4.7964-22.8076h8.4531v32.124H99.4547V135.7965q0-1.0986.0239-2.4389t.2168-6.57h-.1446L94.8189,149.881Z"
+                                fill="#fff"
+                            />
+                            <path
+                                d="M124.1212,149.881H110.1983V117.757h13.9229v6.9653h-7.587v5.0537H123.56v6.9653h-7.0254v6.0645h7.587Z"
+                                fill="#fff"
+                            />
+                            <path
+                                d="M131.9849,55.6544l-4.3594,5.7813a2.33,2.33,0,0,1-1.4765.8594h-.211a2.0241,2.0241,0,0,1-1.4765-.5469L75.8052,16.67,27.149,61.7482a2.4207,2.4207,0,0,1-1.6875.5469,2.3233,2.3233,0,0,1-1.4766-.8594l-4.3594-5.7813a2.7237,2.7237,0,0,1-.4922-1.8359,2.3537,2.3537,0,0,1,.7735-1.68L70.4615,5.3419a8.0449,8.0449,0,0,1,10.6875,0L98.3052,21.2794V6.0451a2.5854,2.5854,0,0,1,.6328-1.7969,2.0771,2.0771,0,0,1,1.6172-.7031h13.5a2.0791,2.0791,0,0,1,1.6172.7031,2.5849,2.5849,0,0,1,.6328,1.7969V37.92l15.3985,14.2187a2.3657,2.3657,0,0,1,.7734,1.68A2.7389,2.7389,0,0,1,131.9849,55.6544Zm-15.68,5.3907v37.5a5.083,5.083,0,0,1-1.3359,3.5156,4.124,4.124,0,0,1-3.1641,1.4844h-27v-30h-18v30h-27a4.1194,4.1194,0,0,1-3.164-1.4844,5.0758,5.0758,0,0,1-1.336-3.5156v-37.5a1.1251,1.1251,0,0,1,.0352-.2344,1.2054,1.2054,0,0,0,.0351-.2344l40.43-37.0312,40.43,37.0312A1.22,1.22,0,0,1,116.3052,61.0451Z"
+                                fill="#fff"
+                            />
+                        </svg>
+                    </a>
+                </div>
+                <div class="main">
+                    <h1 class="big-heading">CONTACT</h1>
+                </div>
             </div>
         </div>
-        
-        <div id="resume" class="page__layout">
-          <div class="nav north">
-          </div>
-          <div class="nav east">
-            <a href="#home" class="navlink" data-template="home" data-rotate="+180" data-rotatedir="Y">
-                <svg class="nav-arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 331.0713 195.78">
-                <title>nav-arrow[new]</title><path class="arrow" d="M234.59,262.625a6.195,6.195,0,0,0,3.83-1.6l90.91-90.85a6.0448,6.0448,0,0,0-.02-8.51l-90.88-90.87a6.2342,6.2342,0,0,0-3.84-1.59h-15.5c-2.08,0-2.57,1.18-1.1,2.65l89.81,89.81a6.0265,6.0265,0,0,1,.02,8.51l-89.85,89.78c-1.45,1.47-.96,2.67,1.12,2.67Z" transform="translate(0 -67.645)" fill="#fff" fill-rule="evenodd"/><path class="box" d="M0,78.895v173.28a11.2541,11.2541,0,0,0,11.25,11.25H171.03a20.8335,20.8335,0,0,0,12.8-5.3l88.82-89.55a3.7784,3.7784,0,0,0-.01-5.32l-90.31-90.3a20.7874,20.7874,0,0,0-12.8-5.31H11.25A11.2541,11.2541,0,0,0,0,78.895Zm23.25,171.4a9.7476,9.7476,0,0,1-9.75-9.74V90.515a9.7476,9.7476,0,0,1,9.75-9.74H164.14a18.0706,18.0706,0,0,1,11.1,4.59l77.89,77.84a3.7693,3.7693,0,0,1,.02,5.32l-76.61,77.18a18.0133,18.0133,0,0,1-11.1,4.59Z" transform="translate(0 -67.645)" fill="#fff" fill-rule="evenodd"/>
-                </svg>
-                <svg class="nav-icon" id="nav-home" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150.61 150.61">
-                <title>nav-home[new]</title><path d="M47.587,149.881H41.2193V136.7853H33.857V149.881H27.4888V117.757H33.857v11.9092h7.3623V117.757H47.587Z" fill="#fff"/><path d="M74.4674,133.775q0,8.1079-2.9034,12.3267a9.664,9.664,0,0,1-8.5009,4.2187,9.6725,9.6725,0,0,1-8.4615-4.2407q-2.9436-4.2407-2.9433-12.3486,0-8.02,2.9277-12.2495a9.7007,9.7007,0,0,1,8.5088-4.23,9.64,9.64,0,0,1,8.4853,4.1968Q74.4674,125.6451,74.4674,133.775Zm-16.1363,0q0,9.3165,4.732,9.3164a3.786,3.786,0,0,0,3.5688-2.2631q1.1624-2.2632,1.1631-7.0533,0-4.812-1.1792-7.1079a3.77,3.77,0,0,0-3.521-2.2964Q58.3311,124.3707,58.3311,133.775Z" fill="#fff"/><path d="M88.7882,149.881l-4.7959-23.1372h-.1446q.3369,5.9106.3369,9.1846V149.881H78.57V117.757h8.437L91.9,140.5646h.1279l4.7964-22.8076h8.4531v32.124H99.4547V135.7965q0-1.0986.0239-2.4389t.2168-6.57h-.1446L94.8189,149.881Z" fill="#fff"/><path d="M124.1212,149.881H110.1983V117.757h13.9229v6.9653h-7.587v5.0537H123.56v6.9653h-7.0254v6.0645h7.587Z" fill="#fff"/><path d="M131.9849,55.6544l-4.3594,5.7813a2.33,2.33,0,0,1-1.4765.8594h-.211a2.0241,2.0241,0,0,1-1.4765-.5469L75.8052,16.67,27.149,61.7482a2.4207,2.4207,0,0,1-1.6875.5469,2.3233,2.3233,0,0,1-1.4766-.8594l-4.3594-5.7813a2.7237,2.7237,0,0,1-.4922-1.8359,2.3537,2.3537,0,0,1,.7735-1.68L70.4615,5.3419a8.0449,8.0449,0,0,1,10.6875,0L98.3052,21.2794V6.0451a2.5854,2.5854,0,0,1,.6328-1.7969,2.0771,2.0771,0,0,1,1.6172-.7031h13.5a2.0791,2.0791,0,0,1,1.6172.7031,2.5849,2.5849,0,0,1,.6328,1.7969V37.92l15.3985,14.2187a2.3657,2.3657,0,0,1,.7734,1.68A2.7389,2.7389,0,0,1,131.9849,55.6544Zm-15.68,5.3907v37.5a5.083,5.083,0,0,1-1.3359,3.5156,4.124,4.124,0,0,1-3.1641,1.4844h-27v-30h-18v30h-27a4.1194,4.1194,0,0,1-3.164-1.4844,5.0758,5.0758,0,0,1-1.336-3.5156v-37.5a1.1251,1.1251,0,0,1,.0352-.2344,1.2054,1.2054,0,0,0,.0351-.2344l40.43-37.0312,40.43,37.0312A1.22,1.22,0,0,1,116.3052,61.0451Z" fill="#fff"/>
-                </svg>
-            </a>
-          </div>
-          <div class="nav south">
-            <a href="#contact" class="navlink" data-template="contact" data-rotate="-180" data-rotatedir="X">
-                <svg class="nav-arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 331.0713 195.78">
-                <title>nav-arrow[new]</title><path class="arrow" d="M234.59,262.625a6.195,6.195,0,0,0,3.83-1.6l90.91-90.85a6.0448,6.0448,0,0,0-.02-8.51l-90.88-90.87a6.2342,6.2342,0,0,0-3.84-1.59h-15.5c-2.08,0-2.57,1.18-1.1,2.65l89.81,89.81a6.0265,6.0265,0,0,1,.02,8.51l-89.85,89.78c-1.45,1.47-.96,2.67,1.12,2.67Z" transform="translate(0 -67.645)" fill="#fff" fill-rule="evenodd"/><path class="box" d="M0,78.895v173.28a11.2541,11.2541,0,0,0,11.25,11.25H171.03a20.8335,20.8335,0,0,0,12.8-5.3l88.82-89.55a3.7784,3.7784,0,0,0-.01-5.32l-90.31-90.3a20.7874,20.7874,0,0,0-12.8-5.31H11.25A11.2541,11.2541,0,0,0,0,78.895Zm23.25,171.4a9.7476,9.7476,0,0,1-9.75-9.74V90.515a9.7476,9.7476,0,0,1,9.75-9.74H164.14a18.0706,18.0706,0,0,1,11.1,4.59l77.89,77.84a3.7693,3.7693,0,0,1,.02,5.32l-76.61,77.18a18.0133,18.0133,0,0,1-11.1,4.59Z" transform="translate(0 -67.645)" fill="#fff" fill-rule="evenodd"/>
-                </svg>
-                <svg class="nav-icon" id="nav-contact" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150.61 150.61">
-                <title>nav-contact[new]</title><path d="M11.8056,124.9444a3.7155,3.7155,0,0,0-3.372,2.4253,15.1829,15.1829,0,0,0-1.211,6.687q0,8.8608,4.92,8.86a7.5825,7.5825,0,0,0,2.8813-.5668,24.2349,24.2349,0,0,0,2.8052-1.3648v7.0127a11.9968,11.9968,0,0,1-6.3457,1.7007,8.8018,8.8018,0,0,1-7.7783-4.0313Q.9994,141.6362,1,134.0147a24.5174,24.5174,0,0,1,1.31-8.3774,12.14,12.14,0,0,1,3.77-5.5538,9.064,9.064,0,0,1,5.7862-1.9418,12.5048,12.5048,0,0,1,6.9433,2.1626l-1.8545,6.53a18.0906,18.0906,0,0,0-2.4833-1.3437A6.5526,6.5526,0,0,0,11.8056,124.9444Z" fill="#fff"/><path d="M43.039,133.8887q0,7.7476-2.7739,11.7788a9.2357,9.2357,0,0,1-8.1235,4.0313,9.2416,9.2416,0,0,1-8.085-4.0523q-2.8132-4.0516-2.8125-11.8,0-7.6635,2.7969-11.7055A9.27,9.27,0,0,1,32.1723,118.1a9.2123,9.2123,0,0,1,8.108,4.01Q43.0392,126.1207,43.039,133.8887Zm-15.4189,0q0,8.9027,4.5215,8.9024a3.6173,3.6173,0,0,0,3.41-2.1626q1.1112-2.1621,1.1114-6.74a15.5549,15.5549,0,0,0-1.1265-6.7925,3.6022,3.6022,0,0,0-3.3643-2.1938Q27.62,124.9024,27.62,133.8887Z" fill="#fff"/><path d="M68.2954,149.2789h-7.94l-8.1846-21.626h-.1377q.2907,5.1021.291,7.79v13.8365H46.96V118.5826h7.9087l8.1538,21.332h.0923q-.2152-4.64-.2148-7.4536V118.5826h5.3955Z" fill="#fff"/><path d="M82.8989,149.2789H76.8447V125.3643H71.373v-6.7817H88.3555v6.7817H82.8989Z" fill="#fff"/><path d="M105.1816,149.2789l-1.1035-5.753h-7.28l-1.1342,5.753H89.0117l7.311-30.8223H104.4l7.4028,30.8223Zm-2.36-12.5557-.9654-5.0391q-.3376-1.6794-.82-4.3462t-.6357-3.8212q-.1384,1.0707-.5444,3.5273t-1.8008,9.6792Z" fill="#fff"/><path d="M124.078,124.9444a3.7157,3.7157,0,0,0-3.3721,2.4253,15.1828,15.1828,0,0,0-1.2109,6.687q0,8.8608,4.92,8.86a7.5834,7.5834,0,0,0,2.8814-.5668,24.2349,24.2349,0,0,0,2.8052-1.3648v7.0127a11.9977,11.9977,0,0,1-6.3457,1.7007,8.802,8.802,0,0,1-7.7784-4.0313q-2.7056-4.0312-2.705-11.6528a24.517,24.517,0,0,1,1.31-8.3774,12.1394,12.1394,0,0,1,3.77-5.5538,9.064,9.064,0,0,1,5.7862-1.9418,12.5048,12.5048,0,0,1,6.9433,2.1626l-1.8545,6.53a18.081,18.081,0,0,0-2.4834-1.3437A6.552,6.552,0,0,0,124.078,124.9444Z" fill="#fff"/><path d="M144.23,149.2789h-6.0542V125.3643h-5.4717v-6.7817H149.686v6.7817H144.23Z" fill="#fff"/><path d="M124.8691,20.4233a14.5421,14.5421,0,0,1-2.6914,8.2994,26.1432,26.1432,0,0,1-6.707,6.76Q94.8048,49.8281,89.75,53.3452q-.5508.3854-2.3359,1.6763Q85.627,56.3142,84.4453,57.11q-1.1835.7968-2.8574,1.7861a16.7,16.7,0,0,1-3.16,1.4839,8.7366,8.7366,0,0,1-2.7485.4946h-.11a8.7244,8.7244,0,0,1-2.748-.4946,16.6349,16.6349,0,0,1-3.1607-1.4839q-1.6771-.99-2.8579-1.7861T63.835,55.0215q-1.7871-1.2906-2.336-1.6763-5.0016-3.5163-14.4-10.03T35.832,35.4829a27.274,27.274,0,0,1-6.4306-6.3481q-3.0235-4.04-3.023-7.5025a11.0945,11.0945,0,0,1,2.2808-7.145,7.8491,7.8491,0,0,1,6.5132-2.8579h80.9038a8.8647,8.8647,0,0,1,8.7929,8.7939Zm0,16.1587v43.64a8.8173,8.8173,0,0,1-8.7929,8.7939H35.1724a8.819,8.819,0,0,1-8.794-8.7939V36.582A29.1,29.1,0,0,0,31.93,41.3638q19.8955,13.52,27.3159,18.9619,3.1326,2.3079,5.084,3.6a31.2451,31.2451,0,0,0,5.1938,2.6382A15.8269,15.8269,0,0,0,75.5693,67.91h.11a15.83,15.83,0,0,0,6.0454-1.3467,31.2791,31.2791,0,0,0,5.1934-2.6382q1.9512-1.2906,5.084-3.6,9.3456-6.76,27.371-18.9619A30.23,30.23,0,0,0,124.8691,36.582Z" fill="#fff"/>
-                </svg>
-            </a>
-          </div>
-          <div class="nav west">
-            <a href="#about" class="navlink" data-template="about" data-rotate="-180" data-rotatedir="Y">
-                <svg class="nav-arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 331.0713 195.78">
-                <title>nav-arrow[new]</title><path class="arrow" d="M234.59,262.625a6.195,6.195,0,0,0,3.83-1.6l90.91-90.85a6.0448,6.0448,0,0,0-.02-8.51l-90.88-90.87a6.2342,6.2342,0,0,0-3.84-1.59h-15.5c-2.08,0-2.57,1.18-1.1,2.65l89.81,89.81a6.0265,6.0265,0,0,1,.02,8.51l-89.85,89.78c-1.45,1.47-.96,2.67,1.12,2.67Z" transform="translate(0 -67.645)" fill="#fff" fill-rule="evenodd"/><path class="box" d="M0,78.895v173.28a11.2541,11.2541,0,0,0,11.25,11.25H171.03a20.8335,20.8335,0,0,0,12.8-5.3l88.82-89.55a3.7784,3.7784,0,0,0-.01-5.32l-90.31-90.3a20.7874,20.7874,0,0,0-12.8-5.31H11.25A11.2541,11.2541,0,0,0,0,78.895Zm23.25,171.4a9.7476,9.7476,0,0,1-9.75-9.74V90.515a9.7476,9.7476,0,0,1,9.75-9.74H164.14a18.0706,18.0706,0,0,1,11.1,4.59l77.89,77.84a3.7693,3.7693,0,0,1,.02,5.32l-76.61,77.18a18.0133,18.0133,0,0,1-11.1,4.59Z" transform="translate(0 -67.645)" fill="#fff" fill-rule="evenodd"/>
-                </svg>
-                <svg class="nav-icon" id="nav-about" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 137.9 150.61">
-                <title>nav-about[new]</title><path d="M20.375,124.7l3.23,12.41h-6.47Zm6.64,25.16h7.48l-10.91-34.5h-6.4l-10.83,34.5h7.39l1.87-6.75h9.54Z" transform="translate(-6.355)" fill="#fff" fill-rule="evenodd"/><path d="M44.615,120.61h3.72a3.98,3.98,0,0,1,3.09,1.06,5.1906,5.1906,0,0,1,.95,3.51q0,4.425-4.11,4.43h-3.65Zm4.93,14.25q3.375.135,3.38,5.04a5.4207,5.4207,0,0,1-.98,3.48,3.4452,3.4452,0,0,1-2.85,1.23h-4.48v-9.75Zm-.45,15c3.51,0,6.18-.86,8.03-2.57s2.78-4.25,2.78-7.63a9.1326,9.1326,0,0,0-1.27-4.97,6.1416,6.1416,0,0,0-3.58-2.68,6.776,6.776,0,0,0,3.17-2.75,8.39,8.39,0,0,0,1.17-4.51c0-3.07-.95-5.41-2.82-7-1.88-1.6-4.63-2.39-8.24-2.39H37.625v34.5Z" transform="translate(-6.355)" fill="#fff" fill-rule="evenodd"/><path d="M82.085,136.15c-.02,3.15-.46,5.47-1.35,6.97a4.4114,4.4114,0,0,1-4.07,2.24,4.521,4.521,0,0,1-4.19-2.3q-1.365-2.28-1.36-7.14v-6.57c.03-3.19.5-5.57,1.39-7.14a4.7552,4.7552,0,0,1,8.25.08q1.335,2.445,1.33,7.43Zm7.04-6.38c-.04-4.79-1.16-8.52-3.39-11.18a11.2881,11.2881,0,0,0-9.12-3.99,11.2392,11.2392,0,0,0-9.19,4.06q-3.3,4.065-3.3,11.28v5.98q.03,6.975,3.37,10.83a11.47,11.47,0,0,0,9.17,3.86,11.3328,11.3328,0,0,0,9.15-3.89q3.315-3.9,3.31-10.96Z" transform="translate(-6.355)" fill="#fff" fill-rule="evenodd"/><path d="M109.555,115.36v24.51a7.59,7.59,0,0,1-.95,4.21c-.62.86-1.77,1.28-3.44,1.28-1.66,0-2.81-.42-3.44-1.29a7.4056,7.4056,0,0,1-.95-4.31v-24.4h-7.06v23.9c0,3.68.97,6.5,2.94,8.44,1.96,1.95,4.8,2.91,8.51,2.91,3.66,0,6.46-.95,8.41-2.87,1.94-1.92,2.94-4.69,2.97-8.31V115.36Z" transform="translate(-6.355)" fill="#fff" fill-rule="evenodd"/><polygon points="137.9 115.36 113.88 115.36 113.88 120.61 122.31 120.61 122.31 149.86 129.33 149.86 129.33 120.61 137.9 120.61 137.9 115.36" fill="#fff" fill-rule="evenodd"/><path d="M75.435,0a24.041,24.041,0,0,0-17.62,7.3,24.0023,24.0023,0,0,0-7.3,17.62,24.0023,24.0023,0,0,0,7.3,17.62,24.9268,24.9268,0,0,0,35.23,0,24.0116,24.0116,0,0,0,7.31-17.62A24.0116,24.0116,0,0,0,93.045,7.3,24.0347,24.0347,0,0,0,75.435,0Zm45.45,76.14a66.9206,66.9206,0,0,0-.91-7.07,56.65,56.65,0,0,0-1.73-7.04,33.3476,33.3476,0,0,0-2.79-6.33,23.0594,23.0594,0,0,0-4.02-5.25,16.7934,16.7934,0,0,0-5.54-3.47,19.3786,19.3786,0,0,0-7.23-1.3,8.0079,8.0079,0,0,0-2.73,1.39c-1.43.94-3.04,1.97-4.83,3.12a30.96,30.96,0,0,1-7.01,3.11,27.6718,27.6718,0,0,1-17.32,0,30.1714,30.1714,0,0,1-7.01-3.11c-1.8-1.15-3.4-2.18-4.83-3.12a8.19,8.19,0,0,0-2.73-1.39,19.3415,19.3415,0,0,0-7.23,1.3,16.84,16.84,0,0,0-5.55,3.47,22.8092,22.8092,0,0,0-4.03,5.25,33.3476,33.3476,0,0,0-2.79,6.33,54.9925,54.9925,0,0,0-1.71,7.04,64.3978,64.3978,0,0,0-.91,7.07c-.16,2.18-.23,4.42-.23,6.71,0,5.2,1.57,9.29,4.74,12.3q4.725,4.5,12.59,4.51h56.7q7.845,0,12.59-4.51c3.15-3.01,4.73-7.1,4.73-12.3C121.105,80.56,121.025,78.32,120.885,76.14Z" transform="translate(-6.355)" fill="#fff" fill-rule="evenodd"/>
-                </svg>
-            </a>
-          </div>
-          <div class="main">
-            <h1 class="big-heading">RESUME</h1>
-          </div>
-        </div>
-        
-         <div id="contact" class="page__layout">
-          <div class="nav north">
-          </div>
-          <div class="nav east">
-            <a href="#resume" class="navlink" data-template="resume" data-rotate="+180" data-rotatedir="Y">
-                <svg class="nav-arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 331.0713 195.78">
-                <title>nav-arrow[new]</title><path class="arrow" d="M234.59,262.625a6.195,6.195,0,0,0,3.83-1.6l90.91-90.85a6.0448,6.0448,0,0,0-.02-8.51l-90.88-90.87a6.2342,6.2342,0,0,0-3.84-1.59h-15.5c-2.08,0-2.57,1.18-1.1,2.65l89.81,89.81a6.0265,6.0265,0,0,1,.02,8.51l-89.85,89.78c-1.45,1.47-.96,2.67,1.12,2.67Z" transform="translate(0 -67.645)" fill="#fff" fill-rule="evenodd"/><path class="box" d="M0,78.895v173.28a11.2541,11.2541,0,0,0,11.25,11.25H171.03a20.8335,20.8335,0,0,0,12.8-5.3l88.82-89.55a3.7784,3.7784,0,0,0-.01-5.32l-90.31-90.3a20.7874,20.7874,0,0,0-12.8-5.31H11.25A11.2541,11.2541,0,0,0,0,78.895Zm23.25,171.4a9.7476,9.7476,0,0,1-9.75-9.74V90.515a9.7476,9.7476,0,0,1,9.75-9.74H164.14a18.0706,18.0706,0,0,1,11.1,4.59l77.89,77.84a3.7693,3.7693,0,0,1,.02,5.32l-76.61,77.18a18.0133,18.0133,0,0,1-11.1,4.59Z" transform="translate(0 -67.645)" fill="#fff" fill-rule="evenodd"/>
-                </svg>
-                <svg class="nav-icon" id="nav-resume" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150.1494 148.896">
-                <title>nav-resume[new]</title><path d="M116.3771,42.3244V93.6637a6.1352,6.1352,0,0,1-6.1612,6.1607H40.3946a6.1352,6.1352,0,0,1-6.1606-6.1607V7.4137A5.9409,5.9409,0,0,1,36.0309,3.05a5.9423,5.9423,0,0,1,4.3637-1.7968H75.3053V36.1637a6.1352,6.1352,0,0,0,6.1606,6.1607ZM99.9484,64.9137V60.8063a1.9767,1.9767,0,0,0-2.0538-2.0532H52.7159a1.9766,1.9766,0,0,0-2.0532,2.0532v4.1074a1.9766,1.9766,0,0,0,2.0532,2.0532H97.8946a1.9767,1.9767,0,0,0,2.0538-2.0532Zm0,16.4282V77.235a1.9775,1.9775,0,0,0-2.0538-2.0537H52.7159a1.9774,1.9774,0,0,0-2.0532,2.0537v4.1069a1.9774,1.9774,0,0,0,2.0532,2.0537H97.8946a1.9775,1.9775,0,0,0,2.0538-2.0537ZM116.1842,34.11H83.52V1.4454a15.5959,15.5959,0,0,1,8.4712,4.1714l20.022,20.022A15.5966,15.5966,0,0,1,116.1842,34.11Z" transform="translate(-0.7496 -1.2531)" fill="#fff"/><path d="M.75,117.0275a47.635,47.635,0,0,1,8.4561-.6856c4.1655,0,7.0815.7349,9.081,2.5967a9.0726,9.0726,0,0,1,2.583,6.9082,8.7352,8.7352,0,0,1-4.9575,8.1333v.147c1.958.9311,3.041,3.1357,3.7491,6.1738.875,3.7237,1.75,8.0352,2.2915,9.3091H15.4542a46.824,46.824,0,0,1-1.958-7.6924c-.7495-4.1157-1.9575-5.2427-4.54-5.2915H7.04V149.61H.75Zm6.29,14.209H9.5392c3.1655,0,5.04-1.8619,5.04-4.7525,0-3.0381-1.7495-4.5566-4.6655-4.6059a13.5157,13.5157,0,0,0-2.874.2451Z" transform="translate(-0.7496 -1.2531)" fill="#fff"/><path d="M41.985,135.6461H31.6539v7.8394H43.193V149.61H25.2809V116.5866H42.61v6.1245H31.6539V129.57H41.985Z" transform="translate(-0.7496 -1.2531)" fill="#fff"/><path d="M47.5631,141.9176a14.3165,14.3165,0,0,0,7.04,2.0576c2.9161,0,4.4571-1.4209,4.4571-3.5766,0-2.0576-1.333-3.2334-4.7071-4.6543-4.6655-1.9112-7.7065-4.9488-7.7065-9.7505,0-5.6343,3.999-9.9458,10.6226-9.9458a15.0342,15.0342,0,0,1,7.165,1.6655L63.0177,123.74a11.7588,11.7588,0,0,0-5.8735-1.5674c-2.75,0-4.0826,1.47-4.0826,3.1846,0,2.1069,1.583,3.0376,5.2071,4.6543,4.9575,2.1562,7.29,5.1938,7.29,9.8486,0,5.5361-3.624,10.24-11.3306,10.24a16.1178,16.1178,0,0,1-7.9565-2.0087Z" transform="translate(-0.7496 -1.2531)" fill="#fff"/><path d="M76.0109,116.5866v19.0107c0,5.6836,1.833,8.5742,5.082,8.5742,3.3325,0,5.1655-2.7436,5.1655-8.5742V116.5866H92.59v18.5205c0,10.1914-4.3736,15.042-11.7051,15.042-7.0816,0-11.2476-4.606-11.2476-15.14V116.5866Z" transform="translate(-0.7496 -1.2531)" fill="#fff"/><path d="M121.6617,136.9689c-.125-3.9688-.25-8.77-.25-13.5718h-.125c-.875,4.2139-2.041,8.9175-3.1245,12.7881l-3.4155,12.8857H109.79l-2.9995-12.788c-.9165-3.8707-1.8746-8.5743-2.5411-12.8858h-.083c-.167,4.4585-.292,9.5542-.5,13.67l-.5,12.543H97.2926l1.791-33.0234H107.54l2.749,11.0244c.875,3.8213,1.75,7.937,2.3745,11.8076h.125c.7915-3.8213,1.7495-8.1821,2.666-11.8569l2.9995-10.9751h8.29l1.541,33.0234h-6.2066Z" transform="translate(-0.7496 -1.2531)" fill="#fff"/><path d="M149.691,135.6461H139.36v7.8394h11.539V149.61H132.9869V116.5866H150.316v6.1245H139.36V129.57h10.331Z" transform="translate(-0.7496 -1.2531)" fill="#fff"/>
-                </svg>
-            </a>
-          </div>
-          <div class="nav south">
-            <a href="#about" class="navlink" data-template="about" data-rotate="-180" data-rotatedir="X">
-                <svg class="nav-arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 331.0713 195.78">
-                <title>nav-arrow[new]</title><path class="arrow" d="M234.59,262.625a6.195,6.195,0,0,0,3.83-1.6l90.91-90.85a6.0448,6.0448,0,0,0-.02-8.51l-90.88-90.87a6.2342,6.2342,0,0,0-3.84-1.59h-15.5c-2.08,0-2.57,1.18-1.1,2.65l89.81,89.81a6.0265,6.0265,0,0,1,.02,8.51l-89.85,89.78c-1.45,1.47-.96,2.67,1.12,2.67Z" transform="translate(0 -67.645)" fill="#fff" fill-rule="evenodd"/><path class="box" d="M0,78.895v173.28a11.2541,11.2541,0,0,0,11.25,11.25H171.03a20.8335,20.8335,0,0,0,12.8-5.3l88.82-89.55a3.7784,3.7784,0,0,0-.01-5.32l-90.31-90.3a20.7874,20.7874,0,0,0-12.8-5.31H11.25A11.2541,11.2541,0,0,0,0,78.895Zm23.25,171.4a9.7476,9.7476,0,0,1-9.75-9.74V90.515a9.7476,9.7476,0,0,1,9.75-9.74H164.14a18.0706,18.0706,0,0,1,11.1,4.59l77.89,77.84a3.7693,3.7693,0,0,1,.02,5.32l-76.61,77.18a18.0133,18.0133,0,0,1-11.1,4.59Z" transform="translate(0 -67.645)" fill="#fff" fill-rule="evenodd"/>
-                </svg>
-                <svg class="nav-icon" id="nav-about" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 137.9 150.61">
-                <title>nav-about[new]</title><path d="M20.375,124.7l3.23,12.41h-6.47Zm6.64,25.16h7.48l-10.91-34.5h-6.4l-10.83,34.5h7.39l1.87-6.75h9.54Z" transform="translate(-6.355)" fill="#fff" fill-rule="evenodd"/><path d="M44.615,120.61h3.72a3.98,3.98,0,0,1,3.09,1.06,5.1906,5.1906,0,0,1,.95,3.51q0,4.425-4.11,4.43h-3.65Zm4.93,14.25q3.375.135,3.38,5.04a5.4207,5.4207,0,0,1-.98,3.48,3.4452,3.4452,0,0,1-2.85,1.23h-4.48v-9.75Zm-.45,15c3.51,0,6.18-.86,8.03-2.57s2.78-4.25,2.78-7.63a9.1326,9.1326,0,0,0-1.27-4.97,6.1416,6.1416,0,0,0-3.58-2.68,6.776,6.776,0,0,0,3.17-2.75,8.39,8.39,0,0,0,1.17-4.51c0-3.07-.95-5.41-2.82-7-1.88-1.6-4.63-2.39-8.24-2.39H37.625v34.5Z" transform="translate(-6.355)" fill="#fff" fill-rule="evenodd"/><path d="M82.085,136.15c-.02,3.15-.46,5.47-1.35,6.97a4.4114,4.4114,0,0,1-4.07,2.24,4.521,4.521,0,0,1-4.19-2.3q-1.365-2.28-1.36-7.14v-6.57c.03-3.19.5-5.57,1.39-7.14a4.7552,4.7552,0,0,1,8.25.08q1.335,2.445,1.33,7.43Zm7.04-6.38c-.04-4.79-1.16-8.52-3.39-11.18a11.2881,11.2881,0,0,0-9.12-3.99,11.2392,11.2392,0,0,0-9.19,4.06q-3.3,4.065-3.3,11.28v5.98q.03,6.975,3.37,10.83a11.47,11.47,0,0,0,9.17,3.86,11.3328,11.3328,0,0,0,9.15-3.89q3.315-3.9,3.31-10.96Z" transform="translate(-6.355)" fill="#fff" fill-rule="evenodd"/><path d="M109.555,115.36v24.51a7.59,7.59,0,0,1-.95,4.21c-.62.86-1.77,1.28-3.44,1.28-1.66,0-2.81-.42-3.44-1.29a7.4056,7.4056,0,0,1-.95-4.31v-24.4h-7.06v23.9c0,3.68.97,6.5,2.94,8.44,1.96,1.95,4.8,2.91,8.51,2.91,3.66,0,6.46-.95,8.41-2.87,1.94-1.92,2.94-4.69,2.97-8.31V115.36Z" transform="translate(-6.355)" fill="#fff" fill-rule="evenodd"/><polygon points="137.9 115.36 113.88 115.36 113.88 120.61 122.31 120.61 122.31 149.86 129.33 149.86 129.33 120.61 137.9 120.61 137.9 115.36" fill="#fff" fill-rule="evenodd"/><path d="M75.435,0a24.041,24.041,0,0,0-17.62,7.3,24.0023,24.0023,0,0,0-7.3,17.62,24.0023,24.0023,0,0,0,7.3,17.62,24.9268,24.9268,0,0,0,35.23,0,24.0116,24.0116,0,0,0,7.31-17.62A24.0116,24.0116,0,0,0,93.045,7.3,24.0347,24.0347,0,0,0,75.435,0Zm45.45,76.14a66.9206,66.9206,0,0,0-.91-7.07,56.65,56.65,0,0,0-1.73-7.04,33.3476,33.3476,0,0,0-2.79-6.33,23.0594,23.0594,0,0,0-4.02-5.25,16.7934,16.7934,0,0,0-5.54-3.47,19.3786,19.3786,0,0,0-7.23-1.3,8.0079,8.0079,0,0,0-2.73,1.39c-1.43.94-3.04,1.97-4.83,3.12a30.96,30.96,0,0,1-7.01,3.11,27.6718,27.6718,0,0,1-17.32,0,30.1714,30.1714,0,0,1-7.01-3.11c-1.8-1.15-3.4-2.18-4.83-3.12a8.19,8.19,0,0,0-2.73-1.39,19.3415,19.3415,0,0,0-7.23,1.3,16.84,16.84,0,0,0-5.55,3.47,22.8092,22.8092,0,0,0-4.03,5.25,33.3476,33.3476,0,0,0-2.79,6.33,54.9925,54.9925,0,0,0-1.71,7.04,64.3978,64.3978,0,0,0-.91,7.07c-.16,2.18-.23,4.42-.23,6.71,0,5.2,1.57,9.29,4.74,12.3q4.725,4.5,12.59,4.51h56.7q7.845,0,12.59-4.51c3.15-3.01,4.73-7.1,4.73-12.3C121.105,80.56,121.025,78.32,120.885,76.14Z" transform="translate(-6.355)" fill="#fff" fill-rule="evenodd"/>
-                </svg>
-            </a>
-          </div>
-          <div class="nav west">
-            <a href="#home" class="navlink" data-template="home" data-rotate="-180" data-rotatedir="Y">
-                <svg class="nav-arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 331.0713 195.78">
-                <title>nav-arrow[new]</title><path class="arrow" d="M234.59,262.625a6.195,6.195,0,0,0,3.83-1.6l90.91-90.85a6.0448,6.0448,0,0,0-.02-8.51l-90.88-90.87a6.2342,6.2342,0,0,0-3.84-1.59h-15.5c-2.08,0-2.57,1.18-1.1,2.65l89.81,89.81a6.0265,6.0265,0,0,1,.02,8.51l-89.85,89.78c-1.45,1.47-.96,2.67,1.12,2.67Z" transform="translate(0 -67.645)" fill="#fff" fill-rule="evenodd"/><path class="box" d="M0,78.895v173.28a11.2541,11.2541,0,0,0,11.25,11.25H171.03a20.8335,20.8335,0,0,0,12.8-5.3l88.82-89.55a3.7784,3.7784,0,0,0-.01-5.32l-90.31-90.3a20.7874,20.7874,0,0,0-12.8-5.31H11.25A11.2541,11.2541,0,0,0,0,78.895Zm23.25,171.4a9.7476,9.7476,0,0,1-9.75-9.74V90.515a9.7476,9.7476,0,0,1,9.75-9.74H164.14a18.0706,18.0706,0,0,1,11.1,4.59l77.89,77.84a3.7693,3.7693,0,0,1,.02,5.32l-76.61,77.18a18.0133,18.0133,0,0,1-11.1,4.59Z" transform="translate(0 -67.645)" fill="#fff" fill-rule="evenodd"/>
-                </svg>
-                <svg class="nav-icon" id="nav-home" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150.61 150.61">
-                <title>nav-home[new]</title><path d="M47.587,149.881H41.2193V136.7853H33.857V149.881H27.4888V117.757H33.857v11.9092h7.3623V117.757H47.587Z" fill="#fff"/><path d="M74.4674,133.775q0,8.1079-2.9034,12.3267a9.664,9.664,0,0,1-8.5009,4.2187,9.6725,9.6725,0,0,1-8.4615-4.2407q-2.9436-4.2407-2.9433-12.3486,0-8.02,2.9277-12.2495a9.7007,9.7007,0,0,1,8.5088-4.23,9.64,9.64,0,0,1,8.4853,4.1968Q74.4674,125.6451,74.4674,133.775Zm-16.1363,0q0,9.3165,4.732,9.3164a3.786,3.786,0,0,0,3.5688-2.2631q1.1624-2.2632,1.1631-7.0533,0-4.812-1.1792-7.1079a3.77,3.77,0,0,0-3.521-2.2964Q58.3311,124.3707,58.3311,133.775Z" fill="#fff"/><path d="M88.7882,149.881l-4.7959-23.1372h-.1446q.3369,5.9106.3369,9.1846V149.881H78.57V117.757h8.437L91.9,140.5646h.1279l4.7964-22.8076h8.4531v32.124H99.4547V135.7965q0-1.0986.0239-2.4389t.2168-6.57h-.1446L94.8189,149.881Z" fill="#fff"/><path d="M124.1212,149.881H110.1983V117.757h13.9229v6.9653h-7.587v5.0537H123.56v6.9653h-7.0254v6.0645h7.587Z" fill="#fff"/><path d="M131.9849,55.6544l-4.3594,5.7813a2.33,2.33,0,0,1-1.4765.8594h-.211a2.0241,2.0241,0,0,1-1.4765-.5469L75.8052,16.67,27.149,61.7482a2.4207,2.4207,0,0,1-1.6875.5469,2.3233,2.3233,0,0,1-1.4766-.8594l-4.3594-5.7813a2.7237,2.7237,0,0,1-.4922-1.8359,2.3537,2.3537,0,0,1,.7735-1.68L70.4615,5.3419a8.0449,8.0449,0,0,1,10.6875,0L98.3052,21.2794V6.0451a2.5854,2.5854,0,0,1,.6328-1.7969,2.0771,2.0771,0,0,1,1.6172-.7031h13.5a2.0791,2.0791,0,0,1,1.6172.7031,2.5849,2.5849,0,0,1,.6328,1.7969V37.92l15.3985,14.2187a2.3657,2.3657,0,0,1,.7734,1.68A2.7389,2.7389,0,0,1,131.9849,55.6544Zm-15.68,5.3907v37.5a5.083,5.083,0,0,1-1.3359,3.5156,4.124,4.124,0,0,1-3.1641,1.4844h-27v-30h-18v30h-27a4.1194,4.1194,0,0,1-3.164-1.4844,5.0758,5.0758,0,0,1-1.336-3.5156v-37.5a1.1251,1.1251,0,0,1,.0352-.2344,1.2054,1.2054,0,0,0,.0351-.2344l40.43-37.0312,40.43,37.0312A1.22,1.22,0,0,1,116.3052,61.0451Z" fill="#fff"/>
-                </svg>
-            </a>
-          </div>
-          <div class="main">
-            <h1 class="big-heading">CONTACT</h1>
-          </div>
-        </div>
-      </div>
-      <script>
-          window.onload = function() {
-            elem = document.querySelector('.technologies .tech-item');
-            console.log(elem);
-            setTimeout(() => {
-                elem.classList.remove('hidden');
+        <script>
+            window.onload = function() {
+                elem = document.querySelector(".technologies .tech-item");
                 console.log(elem);
-            }, 1000);
-          }
-          
-      </script>
-</body>
+                setTimeout(() => {
+                    elem.classList.remove("hidden");
+                    console.log(elem);
+                }, 1000);
+            };
+        </script>
+    </body>
 </html>
