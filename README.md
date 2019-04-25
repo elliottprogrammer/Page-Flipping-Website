@@ -2,6 +2,6 @@
 
 Web page flipping effect
 
-### CodePen demo
+### Live Demo
 
-[https://codepen.io/melliatto/pen/NOvOGP](https://codepen.io/melliatto/pen/NOvOGP)
+[http://rehab-website.elliottprogrammer.com/](http://rehab-website.elliottprogrammer.com/)
