@@ -1,78 +1,83 @@
-*, *::before, *::after {
-	box-sizing: border-box;
-	margin: 0;
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
 }
 
 body {
-	margin: 0; padding: 0;
-	height: 100vh;
-	font-family: 'Roboto Condensed', sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    font-family: "Roboto Condensed", sans-serif;
 }
 .page {
     width: 100%;
     height: 100vh;
 }
 .page__container {
-	width: 100%;
-	height: 100%;
-	transition: transform 2s;
-	transform-style: preserve-3d;
-	position: relative;
+    width: 100%;
+    height: 100%;
+    transition: transform 2s;
+    transform-style: preserve-3d;
+    position: relative;
 }
 
 .page__front,
 .page__back {
-	transform-style: preserve-3d;
+    transform-style: preserve-3d;
     backface-visibility: hidden;
     background-position: top center;
-	position: absolute;
-	top: 0;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	// padding: 10px 7px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    // padding: 10px 7px;
 }
 @media (min-width: 991px) {
-	.page__front,
-	.bage__back {
-		
-	}  
+    .page__front,
+    .bage__back {
+    }
 }
 
 .page__front {
-	background-color: #222;
-	background-size: cover;
+    background-color: #444;
+    background-size: cover;
     background-blend-mode: overlay;
-	color: #eee;
+    color: #eee;
 }
 
 .page__back {
-	transform: rotateY(180deg);
-	background-color: #444;
-	background-size: cover;
-	background-blend-mode: overlay;
-	color: #eee;
+    transform: rotateY(180deg);
+    background-color: #444;
+    background-size: cover;
+    background-blend-mode: overlay;
+    color: #eee;
 }
 
 .page__layout {
     height: 100vh;
-	position: relative;
-	padding: 15px;
+    position: relative;
+    padding: 15px;
 }
 
-.north, .east, .south, .west {
-	display: inline-block;
-	z-index:10;
+.north,
+.east,
+.south,
+.west {
+    display: inline-block;
+    z-index: 10;
 }
 .north {
     position: absolute;
-    top:1%;
+    top: 1%;
     left: 50%;
 }
 
 .east {
     position: absolute;
-    top:50%;
+    top: 50%;
     right: 1%;
 }
 
@@ -81,25 +86,26 @@ body {
     bottom: 3%;
     left: 50%;
     -webkit-transform: translateX(-50%);
-    transform: translateX(-50%)
+    transform: translateX(-50%);
 }
 
 .west {
     position: absolute;
-    top:50%;
+    top: 50%;
     left: 1%;
 }
 
 .main {
- text-align: center;
+    text-align: center;
 }
 
+#templates {
+    display: none;
+}
 
-
-#templates { display: none; }
-
-#home .main, #about .main {
-	display: flex;
-	flex-direction: column;
-	height: 95vh;
+#home .main,
+#about .main {
+    display: flex;
+    flex-direction: column;
+    height: 95vh;
 }

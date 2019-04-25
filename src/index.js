@@ -11,6 +11,7 @@ const PageFlipper = (function(UIController, PageController) {
             UIController.loadTemplate('home', document.getElementById('front-page'));
             document.addEventListener('click', function(e) {
                 if (e.target && e.target.classList.contains(UIController.navLinkClassName)) {
+                    location.hash = 
                     PageController.turnPage(e.target, function(currentPage) {
                         if (currentPage == 'about') {
                             AboutPageController();

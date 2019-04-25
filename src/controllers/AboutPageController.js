@@ -18,7 +18,7 @@ const AboutPageController = function() {
     
     const writeChars = (message, index, interval) => { 
         if (index < message.length) {
-            bioElem.scrollTop = bioElem.scrollHeight;
+            bioElem.parentNode.scrollTop = bioElem.parentNode.scrollHeight;
             writeChar(message[index++]);
             if( index == randomPause) {
                 randomPause = Math.floor(Math.random() * 40) + (index + 4);
@@ -31,6 +31,8 @@ const AboutPageController = function() {
                 }, interval);
             }
             
+        } else {
+            written = true;
         }
     }
     writeChars(message, 0, 20);
