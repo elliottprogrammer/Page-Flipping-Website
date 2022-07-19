@@ -1,6 +1,6 @@
 # Page-Flipping-Website
 
-Web page flipping effect
+Web page flipping effect with JavaScript.
 
 ### Live Demo
 
